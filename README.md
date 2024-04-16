@@ -51,17 +51,17 @@ So feel free to expand the list and initiate a pull request.
 
 **Legend:**
 
-<sup>1</sup>: Either system level load (S) or residential load (R)
+<sup>1</sup>Either system level load (S) or residential load (R)
 
-<sup>2</sup>: In minutes, if not other stated (d=day, m=month, y=year, hz=1sec)
+<sup>2</sup>In minutes, if not other stated (d=day, m=month, y=year, hz=1sec)
 
-<sup>3</sup>: Features: Electricity (E), Weather (W), Temperature (T), Photovoltaic production (PV), Holiday features (H), Price (P)
+<sup>3</sup>Features: Electricity (E), Weather (W), Temperature (T), Photovoltaic production (PV), Holiday features (H), Price (P)
 
-<sup>4</sup>: Duration in number of months
+<sup>4</sup>Duration in number of months
 
-<sup>5</sup>: Horizons for modelling applicable: Very Short Term (VST), Short Term (ST), Medium Long Term (MT), Long Term (LT)
+<sup>5</sup>Horizons for modelling applicable: Very Short Term (VST), Short Term (ST), Medium Long Term (MT), Long Term (LT)
 
-<sup>6</sup>: Dataset records multiple regions separately (e.g. buildings, cities, countries)
+<sup>6</sup>Dataset records multiple regions separately (e.g. buildings, cities, countries)
 
 
 # How to cite
