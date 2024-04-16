@@ -21,36 +21,36 @@ We are happy about any kind of cooperation, feedback or extension to make the li
 So feel free to expand the list and initiate a pull request.
 
 # The list
-| ID 	| Name		| Domain<sup>1</sup> | Resolution<sup>2</sup> | Features<sup>3</sup> | Duration<sup>4</sup> | Spanned years | Horizons<sup>5</sup>  | Regions<sup>6</sup> | Type<sup>7</sup>|
-| -- 	| ------	|------	 | -----------| -----    | -----    | ----------    | -----      | --------------- |----|
-|1	| ISO-NE	|S      |60         	|E		|108    |2003-2014     |❌	✔️	✔️	❌      |✔️|📦|
-|2	| NYISO		|S	|5		|E		|264	|2001-2023	|✔️	✔️	✔️	❌	|✔️|📦|
-|3	| PJM		|S	|60		|E		|240	|1998-2018	|❌	✔️	✔️	✔️	|✔️|📦|
-|4	| CIF		|?	|d,m,y		|Undef.		|8-909	|unknown	|❌	❌	✔️	✔️	|❌|📦|
-|5	| GEFCOM 14	|S	|60		|E, W, T, PV	|10	|2021		|❌	✔️	❌	❌	|❌|📦|
-|6	| EUNITE	|S	|30		|E, T, H	|24	|1997-1999	|❌	✔️	✔️	❌	|❌|📦|
-|7	| ENTSO-E	|S	|60		|E		|<=288	|till 2015	|❌	✔️	✔️	✔️	|✔️|📦|
-|8	| LCL		|H	|30		|E		|12	|2013		|❌	✔️	❌	❌	|❌|📁|
-|9	| SET		|S	|10		|E		|<1	|2013		|✔️	❌	❌	❌	|❌|📁|
-|10	| BDG-Proj	|S	|60		|E		|12	|unknown	|❌	✔️	❌	❌	|✔️|📁|
-|11	| IHPC		|S	|1		|E		|48	|2006-2010	|✔️	✔️	✔️	✔️	|❌|📁|
-|12	| GEFCOM 12	|S	|60		|E, W, T	|42	|2004-2008	|❌	✔️	✔️	❌	|❌|📁|
-|13	| OPSD		|S	|15-60		|E, PV, W	|148	|2005-2019	|✔️	✔️	✔️	✔️	|✔️|📁|
-|14	| ELD		|S	|15		|E		|36	|2011-2014	|✔️	✔️	✔️	✔️	|❌|📁|
-|15	| ENERTALK	|S	|15 hz		|E		|12	|2016		|✔️	✔️	❌	❌	|❌|📁|
-|16	| S-TSO		|H	|60		|>25		|24	|2017-2018	|❌	✔️	✔️	❌	|❌|📁|
-|17	| RTE-France	|S	|30		|E		|12	|2012-2020	|❌	✔️	❌	❌	|✔️|🌐|
-|18	| AEMO		|H	|60		|E		|12	|2013		|❌	✔️	❌	❌	|✔️|🌐|
-|19	| IESO-O	|H	|60		|E, P		|20+	|2022-2023	|❌	✔️	✔️	❌	|❌|🌐|
-|20	| AESO		|S	|60		|E		|132	|2005-2016	|❌	✔️	✔️	✔️	|❌|🌐|
-|21	| PPS		|S	|15-60		|E		|120+	|2013- now	|✔️	✔️	✔️	✔️	|❌|🌐|
-|22	| AUSGRID	|S	|15		|E		|204	|2005-2022	|✔️	✔️	✔️	✔️	|✔️|🌐|
-|23	| KPX		|H	|5		|E		|240	|2003-now	|✔️	✔️	✔️	✔️	|❌|🌐|
-|24	| ADMIE		|S	|60		|E		|120+	|2011-now	|❌	✔️	✔️	✔️	|✔️|🌐|
-|25	| Pecan		|S	|15		|E, W		|24	|2017-2018	|✔️	✔️	✔️	❌	|✔️|🌐|
+| ID  | Abbrev	| Name	                                        | Domain<sup>1</sup> | Resolution<sup>2</sup> | Features<sup>3</sup> | Duration<sup>4</sup> | Spanned years                | Horizons<sup>5</sup>  | Regions<sup>6</sup> | Type<sup>7</sup>|
+| -- 	|--       |----------------------------------------------	|------	             | -----------            | -----------          | -----                | --------------------------------------  | -----------------------            | ------------- |----|
+|1	| ISO-NE	  |	New England Independent System Operator       |S      |60         	|E		|108    |2003-2014     |❌✔️✔️❌     |✔️|📦|
+|2	|NYISO		  | New York Independent System Operator	        |S	|5		|E		|264	|2001-2023	|✔️✔️✔️❌|✔️|📦|
+|3	|PJM		    | PJM Hourly Energy Consumption                 |S	|60		|E		|240	|1998-2018	|❌✔️✔️✔️|✔️|📦|
+|4	|CIF		    | CIF 2016 competition dataset          	       |?	|d,m,y		|Undef.		|8-909	|unknown	|❌❌✔️✔️|❌|📦|
+|5	|GEFCOM14  | GEFCom 2014                                  	|S	|60		|E, W, T, PV	|10	|2021		|❌✔️❌❌|❌|📦|
+|6	|EUNITE	    | EUNITE 2001                          	        |S	|30		|E, T, H	|24	|1997-1999	|❌✔️✔️❌|❌|📦|
+|7	|ENTSO-E	  | ENTSO-E electric load dataset	                |S	|60		|E		|<=288	|till 2015	|❌✔️✔️✔️|✔️|📦|
+|8	|LCL		    | LCL Load Dataset (London Households)          |H	|30		|E		|12	|2013		|❌✔️❌❌|❌|📁|
+|9	|SET		    | Energy Consumption Dataset for Milano/Trento 	|S	|10		|E		|<1	|2013		|✔️❌❌❌	|❌|📁|
+|10	|BDG-Proj	  | Building Data Genome Project	                |S	|60		|E		|12	|unknown	|❌✔️❌❌	|✔️|📁|
+|11	|IHPC		    | Individual Household power consumption |S	|1		|E		|48	|2006-2010	|✔️✔️✔️✔️	|❌|📁|
+|12	|GEFCOM12	| GEFCom 2012	|S	|60		|E, W, T	|42	|2004-2008	|❌✔️✔️❌	|❌|📁|
+|13	|OPSD		    | Open Power System Data 	|S	|15-60		|E, PV, W	|148	|2005-2019	|✔️✔️✔️✔️	|✔️|📁|
+|14	|ELD		    | ElectricityLoadDiagrams20112014	|S	|15		|E		|36	|2011-2014	|✔️✔️✔️✔️	|❌|📁|
+|15	|ENERTALK	  | ENERTALK Dataset Korea (household)	|S	|15 hz		|E		|12	|2016		|✔️✔️❌❌	|❌|📁|
+|16	|S-TSO	    | Spanish Transmission Service operator (TSO)		|H	|60		|>25		|24	|2017-2018	|❌✔️✔️❌	|❌|📁|
+|17	|RTE-France	| RTE France |S	|30		|E		|12	|2012-2020	|❌✔️❌❌	|✔️|🌐|
+|18	|AEMO		    | Australian Energy market operator 	|H	|60		|E		|12	|2013		|❌✔️❌❌|✔️|🌐|
+|19	|IESO-O	    |	IESO Ontario |H	|60		|E, P		|20+	|2022-2023	|❌✔️✔️❌	|❌|🌐|
+|20	|AESO		    | Alberta Electric Sys. Op. Electrical Load Dataset  	|S	|60		|E		|132	|2005-2016	|❌✔️✔️✔️|❌|🌐|
+|21	|PPS		    | Polish power system	|S	|15-60		|E		|120+	|2013- now	|✔️✔️✔️✔️	|❌|🌐|
+|22	|AUSGRID	  | Ausgrid: Distribution zone substation 	|S	|15		|E		|204	|2005-2022	|✔️✔️✔️✔️|✔️|🌐|
+|23	|KPX		    | KPX  Korea	|H	|5		|E		|240	|2003-now	|✔️✔️✔️✔️|❌|🌐|
+|24	|ADMIE		  | Independent Electricity Transmission Operator 	|S	|60		|E		|120+	|2011-now	|❌✔️✔️✔️|✔️|🌐|
+|25	|Pecan		  | Pecan Street dataset	|S	|15		|E, W		|24	|2017-2018	|✔️✔️✔️❌|✔️|🌐|
 
 
-**Legend:**
+#### Legend
 
 <sup>1</sup>Domain: Either system level load (S) or residential load (R)
 
