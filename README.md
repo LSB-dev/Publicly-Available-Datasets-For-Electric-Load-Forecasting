@@ -13,7 +13,7 @@ So we came up with the idea of doing a proper search and making the results avai
 
 ### What?
 Based on a sample set of representative publications, relevant, publicly accessible data sets were extracted, structured and analyzed. 
-The details of the search can be found in the scientific publication: `Placeholder - paper is in review right now`
+The details of the search can be found in the scientific publication: [https://doi.org/10.15488/17659](https://doi.org/10.15488/17659)
 
 
 ### Improvements? 🤝
@@ -76,7 +76,8 @@ If this work has helped you with your scientific work, we would appreciate a pro
 
 Our citation recommendation is:
 ```
-The paper is currently in review. We'll update this in a while.
+Baur, L.; Chandramouli, V.; Sauer, A.: Publicly Available Datasets For Electric Load Forecasting – An Overview. In: Herberger, D.; Hübner, M. (Eds.): Proceedings of the CPSL 2024. Hannover : publish-Ing., 2024, S. 1-12. 
+DOI: https://doi.org/10.15488/17659
 ```
 
 
