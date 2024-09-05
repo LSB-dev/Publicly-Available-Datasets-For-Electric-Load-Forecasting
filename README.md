@@ -63,7 +63,7 @@ So feel free to expand the list and initiate a pull request.
 
 <sup>5</sup>Forecasting-Horizons for modelling applicable: Very Short Term (VST), Short Term (ST), Medium Long Term (MT), Long Term (LT)
 
-<sup>6</sup>Dataset records multiple regions separately (e.g. buildings, cities, countries)
+<sup>6</sup>Dataset records multiple regions / consumers separately (e.g. buildings, cities, countries). Numbers in brackets indicate the number of regions / consumers
 
 <sup>7</sup>Type: Either 📦 = a collection (accumulation of datasets), 📁=a file or achive or 🌐=an data platform / API
 
