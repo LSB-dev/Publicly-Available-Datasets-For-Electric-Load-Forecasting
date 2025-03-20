@@ -62,11 +62,11 @@ So feel free to expand the list and initiate a pull request.
 
 <sup>4</sup>Duration: in number of months
 
-<sup>5</sup>Forecasting-Horizons for modelling applicable: Very Short Term (VST), Short Term (ST), Medium Long Term (MT), Long Term (LT)
+<sup>5</sup>Forecasting-Horizons for modeling applicable: Very Short Term (VST), Short Term (ST), Medium Long Term (MT), Long Term (LT)
 
 <sup>6</sup>Dataset records multiple regions / consumers separately (e.g. buildings, cities, countries). Numbers in brackets indicate the number of regions / consumers
 
-<sup>7</sup>Type: Either 📦 = a collection (accumulation of datasets), 📁=a file or achive or 🌐=an data platform / API
+<sup>7</sup>Type: Either 📦 = a collection (accumulation of datasets), 📁=a file or achive or 🌐=a data platform / API
 
 <sup>8</sup>Access: Either 🔓 = can be accessed directly (no login, no request), 📧 = written application / request has to be sent first
 
@@ -88,4 +88,4 @@ Baur, L.; Chandramouli, V.; Sauer, A.: Publicly Available Datasets For Electric 
 
 💰 We'd like to thank the German Federal Ministry of Economic Affairs and Climate Action (**BMWK**) and the project supervision of the Project Management Jülich (**PtJ**) for the project „FlexGUIde“ which allowed for the work. 
 
-💡 We would also like to thank an **anonymous reviewer** who gave us the idea of publishing the datasets not only in the above-mentioned publication, but also as a repository.
+💡 We would also like to thank an **anonymous reviewer** who suggested publishing the datasets not only in the above-mentioned publication but also as a repository.
