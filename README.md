@@ -55,8 +55,7 @@ So feel free to expand the list and initiate a pull request.
 |23	|KPX		    | KPX  Korea	|H	|5		|E		|240	|2003-now	|✔️✔️✔️✔️|❌|🌐|[🔗Link](https://epsis.kpx.or.kr/epsisnew/selectEkgeEpsMepRealChart.do?menuId=030300)|🔓|
 |24	|ADMIE		  | Independent Electricity Transmission Operator 	|S	|60		|E		|120+	|2011-now	|❌✔️✔️✔️|✔️|🌐|[🔗Link](https://www.admie.gr/en/market/market-statistics/detail-data)|🔓|
 |25	|Pecan		  | Pecan Street dataset	|S	|15		|E, W		|24	|2017-2018	|✔️✔️✔️❌|✔️|🌐|[🔗Link](https://dataport.pecanstreet.org/)|🔓|
-
-
+|33<sup>9</sup>	| Cal-ISO | California ISO Hourly Load Data 	|S |60		|E		|100+|2014-now	|❌✔️✔️✔️	|✔️|🌐|[🔗Link1](https://www.caiso.com/generation-transmission/resource-adequacy#Historical) [🔗Link2](https://bigdata.seas.gwu.edu/data-set-15-california-iso-load-data-set/)|🔓|
 
 
 #### Legend
