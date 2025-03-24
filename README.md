@@ -26,10 +26,12 @@ So feel free to expand the list and initiate a pull request.
 |1	| ISO-NE	  |	New England Independent System Operator       |S      |60         	|E		|108    |2003-2014     |❌✔️✔️❌     |✔️|📦|[🔗Link](https://www.iso-ne.com/isoexpress/web/reports/pricing/-/tree/zone-info)|🔓|
 |2	|NYISO		  | New York Independent System Operator	        |S	|5		|E		|264	|2001-2023	|✔️✔️✔️❌|✔️|📦|[🔗Link](http://mis.nyiso.com/public/P-58Blist.htm)|🔓|
 |3	|PJM		    | PJM Hourly Energy Consumption                 |S	|60		|E		|240	|1998-2018	|❌✔️✔️✔️|✔️|📦|[🔗Link](https://www.kaggle.com/datasets/robikscube/hourly-energy-consumption?resource=download)|🔓|
-|4	|CIF		    | CIF 2016 competition dataset          	       |?	|d,m,y		|Undef.		|8-909	|unknown	|❌❌✔️✔️|❌|📦|[🔗Link](https://irafm.osu.cz/cif2015/main.php?c=Static&page=download)|🔓|
-|5	|GEFCOM14  | GEFCom 2014                                  	|S	|60		|E, W, T, PV	|10	|2021		|❌✔️❌❌|❌|📦|[🔗Link](https://www.dropbox.com/s/pqenrr2mcvl0hk9/GEFCom2014.zip?dl=0&file_subpath=%2FGEFCom2014+Data)|🔓|
+|4	|CIF		    | CIF 2016 competition dataset          	      |?	|d,m,y		|Undef.		|8-909	|unknown	|❌❌✔️✔️|❌|📦|[🔗Link](https://irafm.osu.cz/cif2015/main.php?c=Static&page=download)|🔓|
+|5	|GEFCOM14   | GEFCom 2014                                  	|S	|60		|E, W, T, PV	|10	|2021		|❌✔️❌❌|❌|📦|[🔗Link](https://www.dropbox.com/s/pqenrr2mcvl0hk9/GEFCom2014.zip?dl=0&file_subpath=%2FGEFCom2014+Data)|🔓|
 |6	|EUNITE	    | EUNITE 2001                          	        |S	|30		|E, T, H	|24	|1997-1999	|❌✔️✔️❌|❌|📦|[🔗Link](https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/regression.html)|🔓|
 |7	|ENTSO-E	  | ENTSO-E electric load dataset	                |S	|60		|E		|<=288	|till 2015	|❌✔️✔️✔️|✔️|📦|[🔗Link](https://www.entsoe.eu/publications/statistics-and-data/)|🔓|
+|29<sup>9</sup>	|EWELD 	    | Large-Scale Industrial and Commercial Load Dataset in Extreme Weather Events |I	|15		|E, W, xW	|<=74	|2016-2022	|✔️✔️✔️✔️|✔️ (386)|📦|[🔗Link](https://www.nature.com/articles/s41597-023-02503-6)|🔓|
+|28<sup>9</sup>	|WPuQ		    | Electrical single-family house and heat pump load |R	|<1		|E	|30	|2018-2020	|❌✔️✔️❌|✔️ (38)|📦|[🔗Link](https://www.nature.com/articles/s41597-022-01156-1)|🔓|
 |8	|LCL		    | LCL Load Dataset (London Households)          |H	|30		|E		|12	|2013		|❌✔️❌❌|❌|📁|[🔗Link](https://data.london.gov.uk/dataset/smartmeter-energy-use-data-in-london-households)|🔓|
 |9	|SET		    | Energy Consumption Dataset for Milano/Trento 	|S	|10		|E		|<1	|2013		|✔️❌❌❌	|❌|📁|[🔗Link](https://www.nature.com/articles/sdata201555)|🔓|
 |10	|BDG-Proj	  | Building Data Genome Project	                |S	|60		|E		|12	|unknown	|❌✔️❌❌	|✔️|📁|[🔗Link](https://github.com/buds-lab/the-building-data-genome-project)|🔓|
@@ -58,7 +60,7 @@ So feel free to expand the list and initiate a pull request.
 
 <sup>2</sup>Resolution: In minutes, if not other stated (d=day, m=month, y=year, hz=1sec)
 
-<sup>3</sup>Features: Electricity (E), Weather (W), Temperature (T), Photovoltaic production (PV), Holiday features (H), Price (P)
+<sup>3</sup>Features: Electricity (E), Weather (W),  Extreme Weather Events, e.g. heat periods and taifune (xW), Temperature (T), Photovoltaic production (PV), Holiday features (H), Price (P)
 
 <sup>4</sup>Duration: in number of months
 
