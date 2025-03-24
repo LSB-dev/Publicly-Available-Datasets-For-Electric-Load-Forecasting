@@ -49,6 +49,7 @@ So feel free to expand the list and initiate a pull request.
 |31<sup>9</sup>	| AusSmartGrid | Electricity Use Interval Reading	|R |60		|E		|?|2010-2014	|❌✔️✔️❌	|✔️|📁|[🔗Link](https://data.gov.au/data/dataset/smart-grid-smart-city-customer-trial-data/resource/b71eb954-196a-4901-82fd-69b17f88521e)|🔓|
 |35<sup>9</sup>	| UK-GRID | Electricity consumption UK 2009-2024	|S | 30		|E |180|2009-2024	|❌✔️✔️✔️	|❌|📁|[🔗Link](https://www.kaggle.com/datasets/albertovidalrod/electricity-consumption-uk-20092022)|🔓|
 |36<sup>9</sup>	| HoustonRes | Houston Residential power usage (one house)|R |60		|E, W		|49|2016-2020	|❌✔️✔️❌	|❌|📁|[🔗Link](https://www.kaggle.com/datasets/srinuti/residential-power-usage-3years-data-timeseries)|🔓|
+|37<sup>9</sup>	| CU-BEMS-Bangkok |Bangkok CU-BEMS, smart building energy and IAQ data |R |1		|E, W		|18|2018-2019	|✔️✔️✔️❌	|❌|📁|[🔗Link](https://www.kaggle.com/datasets/claytonmiller/cubems-smart-building-energy-and-iaq-data)|🔓|
 |17	|RTE-France	| RTE France |S	|30		|E		|12	|2012-2020	|❌✔️❌❌	|✔️|🌐|[🔗Link](https://www.rte-france.com/en/eco2mix/download-indicators)|🔓|
 |18	|AEMO		    | Australian Energy market operator 	|H	|60		|E		|12	|2013		|❌✔️❌❌|✔️|🌐|[🔗Link](https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/data-nem/network-data)|🔓|
 |19	|IESO-O	    |	IESO Ontario |H	|60		|E, P		|20+	|2022-2023	|❌✔️✔️❌	|❌|🌐|[🔗Link](https://www.ieso.ca/en/Power-Data/Data-Directory)|🔓|
@@ -59,6 +60,8 @@ So feel free to expand the list and initiate a pull request.
 |24	|ADMIE		  | Independent Electricity Transmission Operator 	|S	|60		|E		|120+	|2011-now	|❌✔️✔️✔️|✔️|🌐|[🔗Link](https://www.admie.gr/en/market/market-statistics/detail-data)|🔓|
 |25	|Pecan		  | Pecan Street dataset	|S	|15		|E, W		|24	|2017-2018	|✔️✔️✔️❌|✔️|🌐|[🔗Link](https://dataport.pecanstreet.org/)|🔓|
 |33<sup>9</sup>	| Cal-ISO | California ISO Hourly Load Data 	|S |60		|E		|100+|2014-now	|❌✔️✔️✔️	|✔️|🌐|[🔗Link1](https://www.caiso.com/generation-transmission/resource-adequacy#Historical) [🔗Link2](https://bigdata.seas.gwu.edu/data-set-15-california-iso-load-data-set/)|🔓|
+
+
 
 
 #### Legend
