@@ -36,7 +36,7 @@ So feel free to expand the list and initiate a pull request.
 |8	|LCL		    | LCL Load Dataset (London Households)          |H	|30		|E		|12	|2013		|❌✔️❌❌|❌|📁|[🔗Link](https://data.london.gov.uk/dataset/smartmeter-energy-use-data-in-london-households)|🔓|
 |9	|SET		    | Energy Consumption Dataset for Milano/Trento 	|S	|10		|E		|<1	|2013		|✔️❌❌❌	|❌|📁|[🔗Link](https://www.nature.com/articles/sdata201555)|🔓|
 |10	|BDG-Proj	  | Building Data Genome Project	                |S	|60		|E		|12	|unknown	|❌✔️❌❌	|✔️|📁|[🔗Link](https://github.com/buds-lab/the-building-data-genome-project)|🔓|
-|34	|BDG-Proj2  | Building Data Genome Project 2 (BDG2)         |R |60		|E		|48	|2016-2017	|❌✔️✔️❌	|✔️ (1636)|📁|[🔗Link](https://github.com/buds-lab/building-data-genome-project-2)|🔓|
+|34<sup>9</sup>		|BDG-Proj2  | Building Data Genome Project 2 (BDG2)         |R |60		|E		|48	|2016-2017	|❌✔️✔️❌	|✔️ (1636)|📁|[🔗Link](https://github.com/buds-lab/building-data-genome-project-2)|🔓|
 |11	|IHPC		    | Individual Household power consumption |S	|1		|E		|48	|2006-2010	|✔️✔️✔️✔️	|❌|📁|[🔗Link](https://archive.ics.uci.edu/dataset/235/individual+household+electric+power+consumption)|🔓|
 |12	|GEFCOM12	| GEFCom 2012	|S	|60		|E, W, T	|42	|2004-2008	|❌✔️✔️❌	|❌|📁|[🔗Link](https://www.kaggle.com/c/global-energy-forecasting-competition-2012-load-forecasting/)|🔓|
 |13	|OPSD-TS		    | Open Power System Data TS	|S	|15-60		|E, PV, W	|148	|2005-2019	|✔️✔️✔️✔️	|✔️|📁|[🔗Link](https://doi.org/10.25832/time_series/2019-06-05)|🔓|
@@ -46,6 +46,7 @@ So feel free to expand the list and initiate a pull request.
 |16	|S-TSO	    | Spanish Transmission Service operator (TSO)		|H	|60		|>25		|24	|2017-2018	|❌✔️✔️❌	|❌|📁|[🔗Link](https://www.kaggle.com/datasets/nicholasjhana/energy-consumption-generation-prices-and-weather)|🔓|
 |26<sup>9</sup> | CER        | CER Smart Metering Project |R,I |30 |E |18 |2009-2010|❌✔️✔️❌|✔️(5237)|📁|[🔗Link](https://www.ucd.ie/issda/data/commissionforenergyregulationcer/)|📧|
 |30<sup>9</sup>	|DEDDIAG | domestic electricity demand dataset (individual appliances in Germany)	|R |1Hz		|E		|2-44	|2011-2014	|✔️✔️✔️❌	|✔️(14)|📁|[🔗Link1]( https://www.nature.com/articles/s41597-021-00963-2) [🔗Link2](https://figshare.com/articles/dataset/DEDDIAG_a_domestic_electricity_demand_dataset_of_individual_appliances_in_Germany/13615073)|🔓|
+|35<sup>9</sup>	|UK-GRID | Electricity consumption UK 2009-2024	|S | 30		|E |180|2009-2024	|❌✔️✔️✔️	|❌|📁|[🔗Link](https://www.kaggle.com/datasets/albertovidalrod/electricity-consumption-uk-20092022)|🔓|
 |31<sup>9</sup>	| AusSmartGrid | Electricity Use Interval Reading	|R |60		|E		|?|2010-2014	|❌✔️✔️❌	|✔️|📁|[🔗Link](https://data.gov.au/data/dataset/smart-grid-smart-city-customer-trial-data/resource/b71eb954-196a-4901-82fd-69b17f88521e)|🔓|
 |17	|RTE-France	| RTE France |S	|30		|E		|12	|2012-2020	|❌✔️❌❌	|✔️|🌐|[🔗Link](https://www.rte-france.com/en/eco2mix/download-indicators)|🔓|
 |18	|AEMO		    | Australian Energy market operator 	|H	|60		|E		|12	|2013		|❌✔️❌❌|✔️|🌐|[🔗Link](https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/data-nem/network-data)|🔓|
