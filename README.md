@@ -33,6 +33,7 @@ So feel free to expand the list and initiate a pull request.
 |29<sup>9</sup>	| EWELD 	    | Large-Scale Industrial and Commercial Load Dataset in Extreme Weather Events |I	|15		|E, W, xW	|<=74	|2016-2022	|✔️✔️✔️✔️|✔️ (386)|📦|[🔗Link](https://www.nature.com/articles/s41597-023-02503-6)|🔓|
 |28<sup>9</sup>	| WPuQ		    | Electrical single-family house and heat pump load |R	|<1		|E	|30	|2018-2020	|❌✔️✔️❌|✔️ (38)|📦|[🔗Link](https://www.nature.com/articles/s41597-022-01156-1)|🔓|
 |32<sup>9</sup>	| PanETESA | Panama ETESA	|S |60		|E, W, H		|66|2015-2020	|❌✔️✔️✔️|❌|📦|[🔗Link](https://www.kaggle.com/datasets/ernestojaguilar/shortterm-electricity-load-forecasting-panama)|🔓|
+|38<sup>9</sup>	|REFIT	  | REFIT: Electrical Load Measurements	|H	|8sec		|E		|20	|2013-2015|✔️✔️✔️❌|✔️(20)|📦|[🔗Link1](https://doi.org/10.15129/31da3ece-f902-4e95-a093-e0a9536983c4) [🔗Link2](https://doi.org/10.5281/zenodo.5063428)|🔓|
 |8	|LCL		    | LCL Load Dataset (London Households)          |H	|30		|E		|12	|2013		|❌✔️❌❌|❌|📁|[🔗Link](https://data.london.gov.uk/dataset/smartmeter-energy-use-data-in-london-households)|🔓|
 |9	|SET		    | Energy Consumption Dataset for Milano/Trento 	|S	|10		|E		|<1	|2013		|✔️❌❌❌	|❌|📁|[🔗Link](https://www.nature.com/articles/sdata201555)|🔓|
 |10	|BDG-Proj	  | Building Data Genome Project	                |S	|60		|E		|12	|unknown	|❌✔️❌❌	|✔️|📁|[🔗Link](https://github.com/buds-lab/the-building-data-genome-project)|🔓|
