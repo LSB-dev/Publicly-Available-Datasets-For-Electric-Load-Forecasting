@@ -30,20 +30,21 @@ So feel free to expand the list and initiate a pull request.
 |5	|GEFCOM14   | GEFCom 2014                                  	|S	|60		|E, W, T, PV	|10	|2021		|❌✔️❌❌|❌|📦|[🔗Link](https://www.dropbox.com/s/pqenrr2mcvl0hk9/GEFCom2014.zip?dl=0&file_subpath=%2FGEFCom2014+Data)|🔓|
 |6	|EUNITE	    | EUNITE 2001                          	        |S	|30		|E, T, H	|24	|1997-1999	|❌✔️✔️❌|❌|📦|[🔗Link](https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/regression.html)|🔓|
 |7	|ENTSO-E	  | ENTSO-E electric load dataset	                |S	|60		|E		|<=288	|till 2015	|❌✔️✔️✔️|✔️|📦|[🔗Link](https://www.entsoe.eu/publications/statistics-and-data/)|🔓|
-|29<sup>9</sup>	|EWELD 	    | Large-Scale Industrial and Commercial Load Dataset in Extreme Weather Events |I	|15		|E, W, xW	|<=74	|2016-2022	|✔️✔️✔️✔️|✔️ (386)|📦|[🔗Link](https://www.nature.com/articles/s41597-023-02503-6)|🔓|
-|28<sup>9</sup>	|WPuQ		    | Electrical single-family house and heat pump load |R	|<1		|E	|30	|2018-2020	|❌✔️✔️❌|✔️ (38)|📦|[🔗Link](https://www.nature.com/articles/s41597-022-01156-1)|🔓|
+|29<sup>9</sup>	| EWELD 	    | Large-Scale Industrial and Commercial Load Dataset in Extreme Weather Events |I	|15		|E, W, xW	|<=74	|2016-2022	|✔️✔️✔️✔️|✔️ (386)|📦|[🔗Link](https://www.nature.com/articles/s41597-023-02503-6)|🔓|
+|28<sup>9</sup>	| WPuQ		    | Electrical single-family house and heat pump load |R	|<1		|E	|30	|2018-2020	|❌✔️✔️❌|✔️ (38)|📦|[🔗Link](https://www.nature.com/articles/s41597-022-01156-1)|🔓|
 |8	|LCL		    | LCL Load Dataset (London Households)          |H	|30		|E		|12	|2013		|❌✔️❌❌|❌|📁|[🔗Link](https://data.london.gov.uk/dataset/smartmeter-energy-use-data-in-london-households)|🔓|
 |9	|SET		    | Energy Consumption Dataset for Milano/Trento 	|S	|10		|E		|<1	|2013		|✔️❌❌❌	|❌|📁|[🔗Link](https://www.nature.com/articles/sdata201555)|🔓|
 |10	|BDG-Proj	  | Building Data Genome Project	                |S	|60		|E		|12	|unknown	|❌✔️❌❌	|✔️|📁|[🔗Link](https://github.com/buds-lab/the-building-data-genome-project)|🔓|
 |11	|IHPC		    | Individual Household power consumption |S	|1		|E		|48	|2006-2010	|✔️✔️✔️✔️	|❌|📁|[🔗Link](https://archive.ics.uci.edu/dataset/235/individual+household+electric+power+consumption)|🔓|
 |12	|GEFCOM12	| GEFCom 2012	|S	|60		|E, W, T	|42	|2004-2008	|❌✔️✔️❌	|❌|📁|[🔗Link](https://www.kaggle.com/c/global-energy-forecasting-competition-2012-load-forecasting/)|🔓|
 |13	|OPSD-TS		    | Open Power System Data TS	|S	|15-60		|E, PV, W	|148	|2005-2019	|✔️✔️✔️✔️	|✔️|📁|[🔗Link](https://doi.org/10.25832/time_series/2019-06-05)|🔓|
-|27<sup>9</sup>	|OPSD-HH		    | Open Power System Data Household Data |R, I	|1-60		|E, PV	|diff	|2012-2019	|✔️✔️✔️✔️	|✔️|📁|[🔗Link](https://data.open-power-system-data.org/household_data/)|🔓|
+|27<sup>9</sup>	| OPSD-HH		    | Open Power System Data Household Data |R, I	|1-60		|E, PV	|diff	|2012-2019	|✔️✔️✔️✔️	|✔️|📁|[🔗Link](https://data.open-power-system-data.org/household_data/)|🔓|
 |14	|ELD		    | ElectricityLoadDiagrams20112014	|S	|15		|E		|36	|2011-2014	|✔️✔️✔️✔️	|❌|📁|[🔗Link1](https://archive.ics.uci.edu/dataset/321/electricityloaddiagrams20112014) [🔗Link2](https://doi.org/10.24432/C58C86)|🔓|
 |15	|ENERTALK	  | ENERTALK Dataset Korea (household)	|S	|15 hz		|E		|12	|2016		|✔️✔️❌❌	|❌|📁|[🔗Link](https://www.nature.com/articles/s41597-019-0212-5)|🔓|
 |16	|S-TSO	    | Spanish Transmission Service operator (TSO)		|H	|60		|>25		|24	|2017-2018	|❌✔️✔️❌	|❌|📁|[🔗Link](https://www.kaggle.com/datasets/nicholasjhana/energy-consumption-generation-prices-and-weather)|🔓|
-|26<sup>9</sup> |CER        | CER Smart Metering Project |R,I |30 |E |18 |2009-2010|❌✔️✔️❌|✔️(5237)|📁|[🔗Link](https://www.ucd.ie/issda/data/commissionforenergyregulationcer/)|📧|
+|26<sup>9</sup> | CER        | CER Smart Metering Project |R,I |30 |E |18 |2009-2010|❌✔️✔️❌|✔️(5237)|📁|[🔗Link](https://www.ucd.ie/issda/data/commissionforenergyregulationcer/)|📧|
 |30<sup>9</sup>	|DEDDIAG | domestic electricity demand dataset (individual appliances in Germany)	|R |1Hz		|E		|2-44	|2011-2014	|✔️✔️✔️❌	|✔️(14)|📁|[🔗Link1]( https://www.nature.com/articles/s41597-021-00963-2) [🔗Link2](https://figshare.com/articles/dataset/DEDDIAG_a_domestic_electricity_demand_dataset_of_individual_appliances_in_Germany/13615073)|🔓|
+|31<sup>9</sup>	| AusSmartGrid | Electricity Use Interval Reading	|R |60		|E		|?|2010-2014	|❌✔️✔️❌	|✔️|📁|[🔗Link](https://data.gov.au/data/dataset/smart-grid-smart-city-customer-trial-data/resource/b71eb954-196a-4901-82fd-69b17f88521e)|🔓|
 |17	|RTE-France	| RTE France |S	|30		|E		|12	|2012-2020	|❌✔️❌❌	|✔️|🌐|[🔗Link](https://www.rte-france.com/en/eco2mix/download-indicators)|🔓|
 |18	|AEMO		    | Australian Energy market operator 	|H	|60		|E		|12	|2013		|❌✔️❌❌|✔️|🌐|[🔗Link](https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/data-nem/network-data)|🔓|
 |19	|IESO-O	    |	IESO Ontario |H	|60		|E, P		|20+	|2022-2023	|❌✔️✔️❌	|❌|🌐|[🔗Link](https://www.ieso.ca/en/Power-Data/Data-Directory)|🔓|
@@ -53,7 +54,6 @@ So feel free to expand the list and initiate a pull request.
 |23	|KPX		    | KPX  Korea	|H	|5		|E		|240	|2003-now	|✔️✔️✔️✔️|❌|🌐|[🔗Link](https://epsis.kpx.or.kr/epsisnew/selectEkgeEpsMepRealChart.do?menuId=030300)|🔓|
 |24	|ADMIE		  | Independent Electricity Transmission Operator 	|S	|60		|E		|120+	|2011-now	|❌✔️✔️✔️|✔️|🌐|[🔗Link](https://www.admie.gr/en/market/market-statistics/detail-data)|🔓|
 |25	|Pecan		  | Pecan Street dataset	|S	|15		|E, W		|24	|2017-2018	|✔️✔️✔️❌|✔️|🌐|[🔗Link](https://dataport.pecanstreet.org/)|🔓|
-
 
 
 
