@@ -36,6 +36,7 @@ So feel free to expand the list and initiate a pull request.
 |38<sup>9</sup>	|REFIT	  | REFIT: Electrical Load Measurements	|H	|8sec		|E		|20	|2013-2015|✔️✔️✔️❌|✔️(20)|📦|[🔗Link1](https://doi.org/10.15129/31da3ece-f902-4e95-a093-e0a9536983c4) [🔗Link2](https://doi.org/10.5281/zenodo.5063428)|🔓|
 |39<sup>9</sup>	|ECD-UY	  | household electricity consumption dataset of Uruguay |S, R	|1-15	|E		|11-23|2019-2020|✔️✔️❌❌|✔️(9)|📦|[🔗Link1](https://www.nature.com/articles/s41597-022-01122-x) [🔗Link2](https://doi.org/10.6084/m9.figshare.c.5428608.v1)|🔓|
 |40<sup>9</sup>	|IDEAL	  | IDEAL UK Household Energy Dataset 255 |R	|1-12sec	|E, W, T |23|2019-2020|✔️✔️✔️❌|✔️(255)|📦|[🔗Link1](https://www.nature.com/articles/s41597-021-00921-y) [🔗Link2](https://doi.org/10.7488/ds/2836)|🔓|
+|41<sup>9</sup>	|HANOI-Res | Residential Apartments Dataset Hanoi, Vietnam (CAMaRSEC Project) |R	|15	|E, W, T |12|2020-2021|✔️✔️❌❌|✔️(49)|📦|[🔗Link1](https://data.mendeley.com/datasets/s9wkdww94w/1) [🔗Link2](https://doi.org/10.17632/s9wkdww94w.1)|🔓|
 |8	|LCL		    | LCL Load Dataset (London Households)          |H	|30		|E		|12	|2013		|❌✔️❌❌|❌|📁|[🔗Link](https://data.london.gov.uk/dataset/smartmeter-energy-use-data-in-london-households)|🔓|
 |9	|SET		    | Energy Consumption Dataset for Milano/Trento 	|S	|10		|E		|<1	|2013		|✔️❌❌❌	|❌|📁|[🔗Link](https://www.nature.com/articles/sdata201555)|🔓|
 |10	|BDG-Proj	  | Building Data Genome Project	                |S	|60		|E		|12	|unknown	|❌✔️❌❌	|✔️|📁|[🔗Link](https://github.com/buds-lab/the-building-data-genome-project)|🔓|
@@ -63,6 +64,9 @@ So feel free to expand the list and initiate a pull request.
 |24	|ADMIE		  | Independent Electricity Transmission Operator 	|S	|60		|E		|120+	|2011-now	|❌✔️✔️✔️|✔️|🌐|[🔗Link](https://www.admie.gr/en/market/market-statistics/detail-data)|🔓|
 |25	|Pecan		  | Pecan Street dataset	|S	|15		|E, W		|24	|2017-2018	|✔️✔️✔️❌|✔️|🌐|[🔗Link](https://dataport.pecanstreet.org/)|🔓|
 |33<sup>9</sup>	| Cal-ISO | California ISO Hourly Load Data 	|S |60		|E		|100+|2014-now	|❌✔️✔️✔️	|✔️|🌐|[🔗Link1](https://www.caiso.com/generation-transmission/resource-adequacy#Historical) [🔗Link2](https://bigdata.seas.gwu.edu/data-set-15-california-iso-load-data-set/)|🔓|
+
+
+
 
 
 #### Legend
