@@ -51,6 +51,7 @@ So feel free to expand the list and initiate a pull request.
 |35<sup>9</sup>	| UK-GRID | Electricity consumption UK 2009-2024	|S | 30		|E |180|2009-2024	|❌✔️✔️✔️	|❌|📁|[🔗Link](https://www.kaggle.com/datasets/albertovidalrod/electricity-consumption-uk-20092022)|🔓|
 |36<sup>9</sup>	| HoustonRes | Houston Residential power usage (one house)|R |60		|E, W		|49|2016-2020	|❌✔️✔️❌	|❌|📁|[🔗Link](https://www.kaggle.com/datasets/srinuti/residential-power-usage-3years-data-timeseries)|🔓|
 |37<sup>9</sup>	| CU-BEMS-Bangkok |Bangkok CU-BEMS, smart building energy and IAQ data |R |1		|E, W		|18|2018-2019	|✔️✔️✔️❌	|❌|📁|[🔗Link](https://www.kaggle.com/datasets/claytonmiller/cubems-smart-building-energy-and-iaq-data)|🔓|
+|39<sup>9</sup>		|ECD-UY	  | household electricity consumption dataset of Uruguay |S, R	|1-15	|E		|11-23|2019-2020|✔️✔️❌❌|✔️|📦|[🔗Link1](https://www.nature.com/articles/s41597-022-01122-x) [🔗Link2](https://doi.org/10.6084/m9.figshare.c.5428608.v1)|🔓|
 |17	|RTE-France	| RTE France |S	|30		|E		|12	|2012-2020	|❌✔️❌❌	|✔️|🌐|[🔗Link](https://www.rte-france.com/en/eco2mix/download-indicators)|🔓|
 |18	|AEMO		    | Australian Energy market operator 	|H	|60		|E		|12	|2013		|❌✔️❌❌|✔️|🌐|[🔗Link](https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/data-nem/network-data)|🔓|
 |19	|IESO-O	    |	IESO Ontario |H	|60		|E, P		|20+	|2022-2023	|❌✔️✔️❌	|❌|🌐|[🔗Link](https://www.ieso.ca/en/Power-Data/Data-Directory)|🔓|
@@ -64,6 +65,9 @@ So feel free to expand the list and initiate a pull request.
 
 
 
+
+
+https://www.nature.com/articles/s41597-022-01122-x/tables/2
 
 #### Legend
 
