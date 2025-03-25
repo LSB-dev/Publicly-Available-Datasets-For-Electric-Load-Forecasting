@@ -64,10 +64,8 @@ So feel free to expand the list and initiate a pull request.
 |33<sup>9</sup>	| Cal-ISO | California ISO Hourly Load Data 	|S |60		|E		|100+|2014-now	|❌✔️✔️✔️	|✔️|🌐|[🔗Link1](https://www.caiso.com/generation-transmission/resource-adequacy#Historical) [🔗Link2](https://bigdata.seas.gwu.edu/data-set-15-california-iso-load-data-set/)|🔓|
 
 
+|40<sup>9</sup>	|IDEAL	  | IDEAL UK Household Energy Dataset 255 |R	|1-12sec	|E, W, T |23|2019-2020|✔️✔️✔️❌|✔️(255)|📦|[🔗Link1](https://www.nature.com/articles/s41597-021-00921-y) [🔗Link2](https://doi.org/10.7488/ds/2836)|🔓|
 
-
-
-https://www.nature.com/articles/s41597-022-01122-x/tables/2
 
 #### Legend
 
