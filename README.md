@@ -39,7 +39,7 @@ So feel free to expand the list and initiate a pull request.
 |8	|LCL		    | LCL Load Dataset (London Households)          |H	|30		|E		|12	|2013		|❌✔️❌❌|❌|📁|[🔗Link](https://data.london.gov.uk/dataset/smartmeter-energy-use-data-in-london-households)|🔓|
 |9	|SET		    | Energy Consumption Dataset for Milano/Trento 	|S	|10		|E		|<1	|2013		|✔️❌❌❌	|❌|📁|[🔗Link](https://www.nature.com/articles/sdata201555)|🔓|
 |10	|BDG-Proj	  | Building Data Genome Project	                |S	|60		|E		|12	|unknown	|❌✔️❌❌	|✔️|📁|[🔗Link](https://github.com/buds-lab/the-building-data-genome-project)|🔓|
-|34<sup>9</sup>		|BDG-Proj2  | Building Data Genome Project 2 (BDG2)         |R |60		|E		|48	|2016-2017	|❌✔️✔️❌	|✔️ (1636)|📁|[🔗Link](https://github.com/buds-lab/building-data-genome-project-2)|🔓|
+|34<sup>9</sup>		|BDG-Proj2  | Building Data Genome Project 2 (BDG2)         |R |60		|E		|24	|2016-2017	|❌✔️✔️❌	|✔️ (1636)|📁|[🔗Link](https://github.com/buds-lab/building-data-genome-project-2)|🔓|
 |11	|IHPC		    | Individual Household power consumption |S	|1		|E		|48	|2006-2010	|✔️✔️✔️✔️	|❌|📁|[🔗Link](https://archive.ics.uci.edu/dataset/235/individual+household+electric+power+consumption)|🔓|
 |12	|GEFCOM12	| GEFCom 2012	|S	|60		|E, W, T	|42	|2004-2008	|❌✔️✔️❌	|❌|📁|[🔗Link](https://www.kaggle.com/c/global-energy-forecasting-competition-2012-load-forecasting/)|🔓|
 |13	|OPSD-TS		    | Open Power System Data TS	|S	|15-60		|E, PV, W	|148	|2005-2019	|✔️✔️✔️✔️	|✔️|📁|[🔗Link](https://doi.org/10.25832/time_series/2019-06-05)|🔓|
