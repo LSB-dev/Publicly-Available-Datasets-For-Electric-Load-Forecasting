@@ -34,6 +34,7 @@ So feel free to expand the list and initiate a pull request.
 |28<sup>9</sup>	| WPuQ		    | Electrical single-family house and heat pump load |R	|<1		|E	|30	|2018-2020	|❌✔️✔️❌|✔️ (38)|📦|[🔗Link](https://www.nature.com/articles/s41597-022-01156-1)|🔓|
 |32<sup>9</sup>	| PanETESA | Panama ETESA	|S |60		|E, W, H		|66|2015-2020	|❌✔️✔️✔️|❌|📦|[🔗Link](https://www.kaggle.com/datasets/ernestojaguilar/shortterm-electricity-load-forecasting-panama)|🔓|
 |38<sup>9</sup>	|REFIT	  | REFIT: Electrical Load Measurements	|H	|8sec		|E		|20	|2013-2015|✔️✔️✔️❌|✔️(20)|📦|[🔗Link1](https://doi.org/10.15129/31da3ece-f902-4e95-a093-e0a9536983c4) [🔗Link2](https://doi.org/10.5281/zenodo.5063428)|🔓|
+|39<sup>9</sup>	|ECD-UY	  | household electricity consumption dataset of Uruguay |S, R	|1-15	|E		|11-23|2019-2020|✔️✔️❌❌|✔️|📦|[🔗Link1](https://www.nature.com/articles/s41597-022-01122-x) [🔗Link2](https://doi.org/10.6084/m9.figshare.c.5428608.v1)|🔓|
 |8	|LCL		    | LCL Load Dataset (London Households)          |H	|30		|E		|12	|2013		|❌✔️❌❌|❌|📁|[🔗Link](https://data.london.gov.uk/dataset/smartmeter-energy-use-data-in-london-households)|🔓|
 |9	|SET		    | Energy Consumption Dataset for Milano/Trento 	|S	|10		|E		|<1	|2013		|✔️❌❌❌	|❌|📁|[🔗Link](https://www.nature.com/articles/sdata201555)|🔓|
 |10	|BDG-Proj	  | Building Data Genome Project	                |S	|60		|E		|12	|unknown	|❌✔️❌❌	|✔️|📁|[🔗Link](https://github.com/buds-lab/the-building-data-genome-project)|🔓|
@@ -51,7 +52,6 @@ So feel free to expand the list and initiate a pull request.
 |35<sup>9</sup>	| UK-GRID | Electricity consumption UK 2009-2024	|S | 30		|E |180|2009-2024	|❌✔️✔️✔️	|❌|📁|[🔗Link](https://www.kaggle.com/datasets/albertovidalrod/electricity-consumption-uk-20092022)|🔓|
 |36<sup>9</sup>	| HoustonRes | Houston Residential power usage (one house)|R |60		|E, W		|49|2016-2020	|❌✔️✔️❌	|❌|📁|[🔗Link](https://www.kaggle.com/datasets/srinuti/residential-power-usage-3years-data-timeseries)|🔓|
 |37<sup>9</sup>	| CU-BEMS-Bangkok |Bangkok CU-BEMS, smart building energy and IAQ data |R |1		|E, W		|18|2018-2019	|✔️✔️✔️❌	|❌|📁|[🔗Link](https://www.kaggle.com/datasets/claytonmiller/cubems-smart-building-energy-and-iaq-data)|🔓|
-|39<sup>9</sup>		|ECD-UY	  | household electricity consumption dataset of Uruguay |S, R	|1-15	|E		|11-23|2019-2020|✔️✔️❌❌|✔️|📦|[🔗Link1](https://www.nature.com/articles/s41597-022-01122-x) [🔗Link2](https://doi.org/10.6084/m9.figshare.c.5428608.v1)|🔓|
 |17	|RTE-France	| RTE France |S	|30		|E		|12	|2012-2020	|❌✔️❌❌	|✔️|🌐|[🔗Link](https://www.rte-france.com/en/eco2mix/download-indicators)|🔓|
 |18	|AEMO		    | Australian Energy market operator 	|H	|60		|E		|12	|2013		|❌✔️❌❌|✔️|🌐|[🔗Link](https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/data-nem/network-data)|🔓|
 |19	|IESO-O	    |	IESO Ontario |H	|60		|E, P		|20+	|2022-2023	|❌✔️✔️❌	|❌|🌐|[🔗Link](https://www.ieso.ca/en/Power-Data/Data-Directory)|🔓|
