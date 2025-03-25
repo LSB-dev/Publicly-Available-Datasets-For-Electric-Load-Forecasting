@@ -106,3 +106,5 @@ Baur, L.; Chandramouli, V.; Sauer, A.: Publicly Available Datasets For Electric 
 💰 We'd like to thank the German Federal Ministry of Economic Affairs and Climate Action (**BMWK**) and the project supervision of the Project Management Jülich (**PtJ**) for the project „FlexGUIde“ which allowed for the work. 
 
 💡 We would also like to thank an **anonymous reviewer** who suggested publishing the datasets not only in the above-mentioned publication but also as a repository.
+
+👨‍🎓 We would like to thank K. Kunkel, whose master's thesis contributed greatly to the expansion of the initial dataset collection.
