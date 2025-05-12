@@ -101,6 +101,21 @@ Our citation recommendation is:
 Baur, L.; Chandramouli, V.; Sauer, A.: Publicly Available Datasets For Electric Load Forecasting – An Overview. In: Herberger, D.; Hübner, M. (Eds.): Proceedings of the CPSL 2024. Hannover : publish-Ing., 2024, S. 1-12. DOI: https://doi.org/10.15488/17659
 ```
 
+BibTeX entry
+```
+@inproceedings{baur2024datasets,
+  author    = {Baur, Lukas and Chandramouli, Vignesh and Sauer, Alexander},
+  title     = {Publicly Available Datasets For Electric Load Forecasting – An Overview},
+  booktitle = {Proceedings of the CPSL 2024},
+  editor    = {Herberger, D. and Hübner, M.},
+  location  = {Hannover},
+  publisher = {publish-Ing.},
+  year      = {2024},
+  pages     = {1--12},
+  doi       = {10.15488/17659}
+}
+```
+
 # Acknowledgements
 
 💰 We'd like to thank the German Federal Ministry of Economic Affairs and Climate Action (**BMWK**) and the project supervision of the Project Management Jülich (**PtJ**) for the project „FlexGUIde“ which allowed for the work. 
