@@ -1,5 +1,3 @@
-t
-
 ![A simle header image](Images/Header1.PNG)
 
 
