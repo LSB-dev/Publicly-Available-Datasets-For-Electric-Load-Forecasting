@@ -1,0 +1,33 @@
+# metadata/datasets.yaml
+#  Minimal metadata schema for PADELF
+
+- dataset_id: <stable_slug>
+  name: <full_name>
+  abbreviation: <short_name_or_null>   # use null if not applicable
+  type: <collection|file_archive|platform_api>
+  domain: <system|residential|industrial|unknown>
+
+  resolution_minutes: <int_or_null>
+  features: [<load|weather|temperature|pv|holiday|price|...>]
+
+  time_coverage:
+    start_date: "<YYYY-MM or YYYY-MM-DD>"
+    end_date: "<YYYY-MM or YYYY-MM-DD or null>"
+
+  duration_months: <int_or_null>
+  horizons: [<vst|st|mt|lt>]
+  regions_multiple: <true|false>
+
+  access:
+    url: "<https://...>"
+    access_notes: "<short note: registration/api/geo restriction/etc.>"
+
+  license: <string_or_unknown>
+
+  citation:
+    preferred_citation: "<one-line citation string>"
+    bibtex: null
+
+  source_paper:
+    in_baur_2024: <true|false>
+    baur_2024_usage_count: <int_or_null>
