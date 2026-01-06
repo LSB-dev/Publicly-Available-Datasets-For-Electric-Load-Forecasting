@@ -1,8 +1,3 @@
-Gut. Dann ist **Schritt 1** jetzt: im Data-Repo die **Metadaten-Felder (v0.01) verbindlich festschreiben**. Das machen Sie am saubersten mit `metadata/schema.md` als kleiner Folge-PR.
-
-Unten ist eine fertige Version zum Copy/Paste.
-
-````md
 # PADELF Metadata Schema (v0.01)
 
 ## Purpose
