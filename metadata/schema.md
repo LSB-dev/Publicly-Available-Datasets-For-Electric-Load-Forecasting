@@ -1,12 +1,19 @@
-# PADELF Metadata Schema (v0.01)
+
+# PADELF Metadata Schema 
 
 ## Purpose
-This document defines the minimal, reviewable metadata schema (v0.01) for publicly available electric load forecasting datasets.
-The canonical metadata source is `metadata/datasets.yaml`.
+This document defines the metadata schema for publicly available electric load forecasting datasets.
+The schema is designed to support both human-readable curation (README table) and machine-readable consumption (generated YAML for dashboards/tools).
 
 ## Files
-- `metadata/datasets.yaml` (SSOT, human-edited)
+- `README.md` (SSOT, human-edited; dataset table is the canonical source)
+- `metadata/overrides.yaml` (optional; manual overrides/completions for fields not reliably derivable from README)
+- `metadata/datasets.yaml` (generated artifact; do not edit by hand)
 - `metadata/schema.md` (this file)
+
+## Generation rule
+`metadata/datasets.yaml` is generated from the dataset table in `README.md` plus optional `metadata/overrides.yaml`.
+Manual edits to `metadata/datasets.yaml` will be overwritten by the generator.
 
 ## General conventions
 - `dataset_id` is stable and unique; allowed pattern: `^[a-z0-9_]+$`
@@ -26,7 +33,7 @@ An empty list is valid:
 
 ---
 
-## Dataset fields (v0.01)
+## Dataset fields (v0.02)
 
 ### Required fields
 
@@ -40,10 +47,10 @@ An empty list is valid:
 * `type` (enum)
 * `domain` (enum)
 * `resolution_minutes` (int | null)
-* `features` (list[enum_or_string], non-empty recommended)
+* `features` (list[string], can be empty if unknown)
 * `time_coverage` (object)
 
-  * `start_date` (string, ISO)
+  * `start_date` (string, ISO | null)
   * `end_date` (string, ISO | null)
 * `duration_months` (int | null)
 * `horizons` (list[enum], can be empty if unknown)
@@ -64,7 +71,20 @@ An empty list is valid:
   * `in_baur_2024` (bool)
   * `baur_2024_usage_count` (int | null)
 
-### Optional fields (schema-ready, not required in v0.01)
+### Optional fields (recommended for robust generation)
+
+These fields preserve original values from README when normalization is ambiguous.
+
+* `domain_raw` (string | null) — original domain cell (e.g., `S, R`, `?`)
+* `resolution_raw` (string | null) — original resolution cell (e.g., `8sec`, `15-60`, `d,m,y`, `<1`)
+* `features_raw` (string | null) — original features cell (e.g., `E, W, T, PV`, `Undef.`, `>25`)
+* `duration_raw` (string | null) — original duration cell (e.g., `8-909`, `<=288`, `diff`, `?`)
+* `time_coverage_raw` (string | null) — original spanned years cell (e.g., `till 2015`, `2013-now`, `unknown`)
+* `regions_raw` (string | null) — original regions cell (e.g., `✔️ (386)`, `❌`)
+* `links` (list[string] | null) — all extracted URLs from the README links cell (first URL should also be used as `access.url`)
+* `tags` (list[string] | null)
+
+### Optional fields (schema-ready, not required)
 
 * `geo` (object)
 
@@ -73,11 +93,10 @@ An empty list is valid:
   * `tz` (string | null, e.g. `Europe/Berlin`)
 * `granularity` (string | null) — e.g. `household`, `building`, `substation`, `national`
 * `data_format` (list[string] | null) — e.g. `csv`, `xlsx`, `api`, `zip`
-* `tags` (list[string] | null)
 
 ---
 
-## Enums (v0.01)
+## Enums
 
 ### type
 
@@ -109,17 +128,24 @@ An empty list is valid:
   abbreviation: null
   type: file_archive
   domain: system
+  domain_raw: "S"
   resolution_minutes: 60
+  resolution_raw: "60"
   features: [load]
+  features_raw: "E"
   time_coverage:
     start_date: "2010-01"
     end_date: "2012-12"
+  time_coverage_raw: "2010-2012"
   duration_months: 36
+  duration_raw: "36"
   horizons: [st, mt]
   regions_multiple: false
+  regions_raw: "❌"
   access:
     url: "https://example.org/dataset"
     access_notes: "Direct download"
+  links: ["https://example.org/dataset"]
   license: unknown
   citation:
     preferred_citation: "Example Org, Example Load Dataset, accessed YYYY-MM-DD."
@@ -132,4 +158,6 @@ An empty list is valid:
 ## Validation notes (recommended)
 
 * If `end_date` is `null`, dataset is considered ongoing.
-* If `resolution_minutes` is unknown, set it to `null` and explain in `access.access_notes` or future `notes` field.
+* If a value is ambiguous (resolution, duration, spanned years), set the normalized field to `null` and store the original value in the corresponding `*_raw` field.
+
+
