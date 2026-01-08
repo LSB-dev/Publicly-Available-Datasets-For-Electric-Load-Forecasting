@@ -1,0 +1,3 @@
+# Optional overrides for fields that cannot be reliably derived from README.md
+# Keyed by dataset_id
+{}
