@@ -1,0 +1,45 @@
+name: Validate Datasets YAML
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "README.md"
+      - "metadata/overrides.yaml"
+      - "scripts/parse_readme.py"
+  pull_request:
+    branches: [main]
+    paths:
+      - "README.md"
+      - "metadata/overrides.yaml"
+      - "scripts/parse_readme.py"
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install pyyaml pydantic
+
+      - name: Run parser
+        run: python scripts/parse_readme.py
+
+      - name: Check for drift in datasets.yaml
+        run: |
+          if ! git diff --exit-code metadata/datasets.yaml; then
+            echo "::error::datasets.yaml is out of sync with README.md. Run parse_readme.py locally and commit the result."
+            exit 1
+          fi
+
+      - name: Validate datasets.yaml with Pydantic
+        run: python scripts/validate_datasets.py
