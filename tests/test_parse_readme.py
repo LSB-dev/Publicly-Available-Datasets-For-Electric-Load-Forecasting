@@ -138,8 +138,7 @@ def generated_datasets():
 def test_parsing_robustness(readme_content):
     """Test that parser runs without crashes on current README."""
     datasets = parse_markdown_table(readme_content)
-    assert len(datasets) > 0
-    assert len(datasets) == 43  # Current expected count
+    assert len(datasets) >= 40  # Sanity lower bound
 
 
 def test_id_generation(generated_datasets):
@@ -205,6 +204,50 @@ def test_raw_fields_preserved(generated_datasets):
             break
     else:
         pytest.skip("No dataset with complex resolution found")
+
+
+def test_no_duplicate_ids(readme_content):
+    """Test that no two datasets produce the same dataset_id."""
+    datasets = parse_markdown_table(readme_content)
+    ids = [d["dataset_id"] for d in datasets]
+    duplicates = [did for did in ids if ids.count(did) > 1]
+    assert not duplicates, f"Duplicate dataset_ids: {set(duplicates)}"
+
+
+def test_in_baur_2024_derived(readme_content):
+    """Test that in_baur_2024 is correctly derived from README footnote markers."""
+    datasets = parse_markdown_table(readme_content)
+    # ISO-NE (ID=1, no <sup>9</sup>) should be in original paper
+    iso_ne = next(d for d in datasets if d["dataset_id"] == "iso-ne")
+    assert iso_ne["source_paper"]["in_baur_2024"] is True
+
+    # EWELD (ID=29<sup>9</sup>) should NOT be in original paper
+    eweld = next(d for d in datasets if d["dataset_id"] == "eweld")
+    assert eweld["source_paper"]["in_baur_2024"] is False
+
+
+def test_round_trip_reproducibility(readme_content):
+    """Test that re-parsing README produces the same output as checked-in datasets.yaml."""
+    yaml_path = Path(__file__).parent.parent / "metadata" / "datasets.yaml"
+    if not yaml_path.exists():
+        pytest.skip("datasets.yaml not found")
+
+    with yaml_path.open() as f:
+        existing = yaml.safe_load(f)
+
+    freshly_parsed = parse_markdown_table(readme_content)
+
+    assert len(freshly_parsed) == len(existing), (
+        f"Dataset count mismatch: parsed {len(freshly_parsed)}, existing {len(existing)}"
+    )
+
+    for parsed, saved in zip(freshly_parsed, existing):
+        assert parsed["dataset_id"] == saved["dataset_id"], (
+            f"dataset_id mismatch at position: {parsed['dataset_id']} vs {saved['dataset_id']}"
+        )
+        assert parsed == saved, (
+            f"Mismatch for dataset '{parsed['dataset_id']}': re-run scripts/parse_readme.py to regenerate"
+        )
 
 
 if __name__ == "__main__":

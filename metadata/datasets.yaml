@@ -30,7 +30,7 @@
     preferred_citation: ''
     bibtex: null
   source_paper:
-    in_baur_2024: false
+    in_baur_2024: true
     baur_2024_usage_count: null
 - dataset_id: nyiso
   name: New York Independent System Operator
@@ -65,7 +65,7 @@
     preferred_citation: ''
     bibtex: null
   source_paper:
-    in_baur_2024: false
+    in_baur_2024: true
     baur_2024_usage_count: null
 - dataset_id: pjm
   name: PJM Hourly Energy Consumption
@@ -100,7 +100,7 @@
     preferred_citation: ''
     bibtex: null
   source_paper:
-    in_baur_2024: false
+    in_baur_2024: true
     baur_2024_usage_count: null
 - dataset_id: cif
   name: CIF 2016 competition dataset
@@ -133,7 +133,7 @@
     preferred_citation: ''
     bibtex: null
   source_paper:
-    in_baur_2024: false
+    in_baur_2024: true
     baur_2024_usage_count: null
 - dataset_id: gefcom14
   name: GEFCom 2014
@@ -169,7 +169,7 @@
     preferred_citation: ''
     bibtex: null
   source_paper:
-    in_baur_2024: false
+    in_baur_2024: true
     baur_2024_usage_count: null
 - dataset_id: eunite
   name: EUNITE 2001
@@ -205,7 +205,7 @@
     preferred_citation: ''
     bibtex: null
   source_paper:
-    in_baur_2024: false
+    in_baur_2024: true
     baur_2024_usage_count: null
 - dataset_id: entso-e
   name: ENTSO-E electric load dataset
@@ -240,7 +240,7 @@
     preferred_citation: ''
     bibtex: null
   source_paper:
-    in_baur_2024: false
+    in_baur_2024: true
     baur_2024_usage_count: null
 - dataset_id: eweld
   name: Large-Scale Industrial and Commercial Load Dataset in Extreme Weather Events
@@ -375,7 +375,7 @@
   regions_multiple: true
   regions_raw: ✔️(20)
   access:
-    url: ''
+    url: https://doi.org/10.15129/31da3ece-f902-4e95-a093-e0a9536983c4
     access_notes: 2 links available, see links field
   links:
   - https://doi.org/10.15129/31da3ece-f902-4e95-a093-e0a9536983c4
@@ -410,7 +410,7 @@
   regions_multiple: true
   regions_raw: ✔️(9)
   access:
-    url: ''
+    url: https://www.nature.com/articles/s41597-022-01122-x
     access_notes: 2 links available, see links field
   links:
   - https://www.nature.com/articles/s41597-022-01122-x
@@ -448,7 +448,7 @@
   regions_multiple: true
   regions_raw: ✔️(255)
   access:
-    url: ''
+    url: https://www.nature.com/articles/s41597-021-00921-y
     access_notes: 2 links available, see links field
   links:
   - https://www.nature.com/articles/s41597-021-00921-y
@@ -485,7 +485,7 @@
   regions_multiple: true
   regions_raw: ✔️(49)
   access:
-    url: ''
+    url: https://data.mendeley.com/datasets/s9wkdww94w/2
     access_notes: 2 links available, see links field
   links:
   - https://data.mendeley.com/datasets/s9wkdww94w/2
@@ -523,7 +523,7 @@
   regions_multiple: true
   regions_raw: ✔️(5)
   access:
-    url: ''
+    url: https://data.ukedc.rl.ac.uk/browse/edc/efficiency/residential/EnergyConsumption/Domestic/UK-DALE-2017/ReadMe_DALE-2017.html
     access_notes: 3 links available, see links field
   links:
   - https://data.ukedc.rl.ac.uk/browse/edc/efficiency/residential/EnergyConsumption/Domestic/UK-DALE-2017/ReadMe_DALE-2017.html
@@ -567,7 +567,7 @@
     preferred_citation: ''
     bibtex: null
   source_paper:
-    in_baur_2024: false
+    in_baur_2024: true
     baur_2024_usage_count: null
 - dataset_id: set
   name: Energy Consumption Dataset for Milano/Trento
@@ -600,7 +600,7 @@
     preferred_citation: ''
     bibtex: null
   source_paper:
-    in_baur_2024: false
+    in_baur_2024: true
     baur_2024_usage_count: null
 - dataset_id: bdg-proj
   name: Building Data Genome Project
@@ -633,7 +633,7 @@
     preferred_citation: ''
     bibtex: null
   source_paper:
-    in_baur_2024: false
+    in_baur_2024: true
     baur_2024_usage_count: null
 - dataset_id: bdg-proj2
   name: Building Data Genome Project 2 (BDG2)
@@ -703,7 +703,7 @@
     preferred_citation: ''
     bibtex: null
   source_paper:
-    in_baur_2024: false
+    in_baur_2024: true
     baur_2024_usage_count: null
 - dataset_id: gefcom12
   name: GEFCom 2012
@@ -739,7 +739,7 @@
     preferred_citation: ''
     bibtex: null
   source_paper:
-    in_baur_2024: false
+    in_baur_2024: true
     baur_2024_usage_count: null
 - dataset_id: opsd-ts
   name: Open Power System Data TS
@@ -777,7 +777,7 @@
     preferred_citation: ''
     bibtex: null
   source_paper:
-    in_baur_2024: false
+    in_baur_2024: true
     baur_2024_usage_count: null
 - dataset_id: opsd-hh
   name: Open Power System Data Household Data
@@ -841,7 +841,7 @@
   regions_multiple: false
   regions_raw: ❌
   access:
-    url: ''
+    url: https://archive.ics.uci.edu/dataset/321/electricityloaddiagrams20112014
     access_notes: 2 links available, see links field
   links:
   - https://archive.ics.uci.edu/dataset/321/electricityloaddiagrams20112014
@@ -851,7 +851,7 @@
     preferred_citation: ''
     bibtex: null
   source_paper:
-    in_baur_2024: false
+    in_baur_2024: true
     baur_2024_usage_count: null
 - dataset_id: enertalk
   name: ENERTALK Dataset Korea (household)
@@ -885,7 +885,7 @@
     preferred_citation: ''
     bibtex: null
   source_paper:
-    in_baur_2024: false
+    in_baur_2024: true
     baur_2024_usage_count: null
 - dataset_id: s-tso
   name: Spanish Transmission Service operator (TSO)
@@ -918,7 +918,7 @@
     preferred_citation: ''
     bibtex: null
   source_paper:
-    in_baur_2024: false
+    in_baur_2024: true
     baur_2024_usage_count: null
 - dataset_id: cer
   name: CER Smart Metering Project
@@ -978,7 +978,7 @@
   regions_multiple: true
   regions_raw: ✔️(14)
   access:
-    url: ''
+    url: ' https://www.nature.com/articles/s41597-021-00963-2'
     access_notes: 2 links available, see links field
   links:
   - ' https://www.nature.com/articles/s41597-021-00963-2'
@@ -1195,7 +1195,7 @@
     preferred_citation: ''
     bibtex: null
   source_paper:
-    in_baur_2024: false
+    in_baur_2024: true
     baur_2024_usage_count: null
 - dataset_id: aemo
   name: Australian Energy market operator
@@ -1228,7 +1228,7 @@
     preferred_citation: ''
     bibtex: null
   source_paper:
-    in_baur_2024: false
+    in_baur_2024: true
     baur_2024_usage_count: null
 - dataset_id: ieso-o
   name: IESO Ontario
@@ -1263,7 +1263,7 @@
     preferred_citation: ''
     bibtex: null
   source_paper:
-    in_baur_2024: false
+    in_baur_2024: true
     baur_2024_usage_count: null
 - dataset_id: aeso
   name: Alberta Electric Sys. Op. Electrical Load Dataset
@@ -1298,7 +1298,7 @@
     preferred_citation: ''
     bibtex: null
   source_paper:
-    in_baur_2024: false
+    in_baur_2024: true
     baur_2024_usage_count: null
 - dataset_id: pps
   name: Polish power system
@@ -1334,7 +1334,7 @@
     preferred_citation: ''
     bibtex: null
   source_paper:
-    in_baur_2024: false
+    in_baur_2024: true
     baur_2024_usage_count: null
 - dataset_id: ausgrid
   name: 'Ausgrid: Distribution zone substation'
@@ -1370,7 +1370,7 @@
     preferred_citation: ''
     bibtex: null
   source_paper:
-    in_baur_2024: false
+    in_baur_2024: true
     baur_2024_usage_count: null
 - dataset_id: kpx
   name: KPX  Korea
@@ -1406,7 +1406,7 @@
     preferred_citation: ''
     bibtex: null
   source_paper:
-    in_baur_2024: false
+    in_baur_2024: true
     baur_2024_usage_count: null
 - dataset_id: admie
   name: Independent Electricity Transmission Operator
@@ -1441,7 +1441,7 @@
     preferred_citation: ''
     bibtex: null
   source_paper:
-    in_baur_2024: false
+    in_baur_2024: true
     baur_2024_usage_count: null
 - dataset_id: pecan
   name: Pecan Street dataset
@@ -1477,7 +1477,7 @@
     preferred_citation: ''
     bibtex: null
   source_paper:
-    in_baur_2024: false
+    in_baur_2024: true
     baur_2024_usage_count: null
 - dataset_id: cal-iso
   name: California ISO Hourly Load Data
@@ -1503,7 +1503,7 @@
   regions_multiple: true
   regions_raw: ✔️
   access:
-    url: ''
+    url: https://www.caiso.com/generation-transmission/resource-adequacy#Historical
     access_notes: 2 links available, see links field
   links:
   - https://www.caiso.com/generation-transmission/resource-adequacy#Historical

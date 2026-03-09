@@ -150,24 +150,26 @@ def parse_resolution(cell: str) -> tuple[Optional[int], str]:
     return None, raw
 
 
-def parse_features(cell: str) -> tuple[List[str], str]:
+def parse_features(cell: str, dataset_id: str = "") -> tuple[List[str], str]:
     """
     Parse features cell. Returns (normalized_features, raw).
     Tokenize by comma and map known codes.
     """
     raw = cell.strip()
-    
+
     if raw in ["Undef.", ">25", "?"]:
         return [], raw
-    
+
     # Split by comma
     tokens = [t.strip() for t in raw.split(",")]
-    
+
     normalized = []
     for token in tokens:
         if token in FEATURE_MAP:
             normalized.append(FEATURE_MAP[token])
-    
+        elif token:
+            print(f"Warning: Unknown feature code '{token}' in dataset {dataset_id}", file=sys.stderr)
+
     return normalized, raw
 
 
@@ -292,10 +294,8 @@ def parse_markdown_table(readme_content: str) -> List[Dict[str, Any]]:
     header_cells = [cell.strip() for cell in header_line.split("|")]
     header_cells = [cell for cell in header_cells if cell]  # Remove empty
     
-    # Clean HTML tags from headers (e.g., "Domain<sup>1</sup>" -> "Domain1")
-    header_cells = [re.sub(r"<[^>]+>", "", cell).strip() for cell in header_cells]
-    # Remove trailing numbers left from superscripts (e.g., "Domain1" -> "Domain")
-    header_cells = [re.sub(r"\d+$", "", cell).strip() for cell in header_cells]
+    # Remove superscript footnote markers (e.g., "Domain<sup>1</sup>" -> "Domain")
+    header_cells = [re.sub(r"<sup>\d+</sup>", "", cell).strip() for cell in header_cells]
 
     
     # Start parsing data rows (after separator)
@@ -326,7 +326,16 @@ def parse_markdown_table(readme_content: str) -> List[Dict[str, Any]]:
         # Parse the row
         dataset = parse_row(row)
         datasets.append(dataset)
-    
+
+    # Check for duplicate dataset_ids
+    seen_ids: Dict[str, int] = {}
+    for dataset in datasets:
+        did = dataset["dataset_id"]
+        if did in seen_ids:
+            print(f"Warning: Duplicate dataset_id '{did}' (rows {seen_ids[did]} and {dataset['name']})", file=sys.stderr)
+        else:
+            seen_ids[did] = dataset["name"]
+
     return datasets
 
 
@@ -338,64 +347,72 @@ def parse_row(row: Dict[str, str]) -> Dict[str, Any]:
     id_raw = row["ID"]
     abbrev = row["Abbrev"]
     name = row["Name"]
-    
+
     # Generate dataset_id
     if abbrev and abbrev.strip():
         dataset_id = slugify(abbrev)
     else:
         dataset_id = slugify(id_raw)
-    
+
+    # Derive in_baur_2024: datasets WITHOUT <sup>9</sup> are from the original paper
+    in_baur_2024 = "<sup>9</sup>" not in id_raw
+
     # Type (from icon)
     type_icon = row["Type"]
     dataset_type = TYPE_ICON_MAP.get(type_icon.strip(), None)
     if dataset_type is None:
         print(f"Warning: Unknown type icon '{type_icon}' for dataset {dataset_id}", file=sys.stderr)
         dataset_type = "unknown"
-    
+
     # Domain
     domain, domain_raw = parse_domain(row["Domain"])
     if domain is None:
+        print(f"Warning: Unmapped domain code '{domain_raw}' for dataset {dataset_id}, using 'unknown'", file=sys.stderr)
         domain = "unknown"
-    
+
     # Resolution
     resolution_minutes, resolution_raw = parse_resolution(row["Resolution"])
-    
+
     # Features
-    features, features_raw = parse_features(row["Features"])
-    
+    features, features_raw = parse_features(row["Features"], dataset_id=dataset_id)
+
     # Duration
     duration_months, duration_raw = parse_duration(row["Duration"])
-    
+
     # Time coverage
     time_coverage, time_coverage_raw = parse_time_coverage(row["Spanned years"])
-    
+
     # Horizons
     horizons = parse_checkmarks(row["Horizons"])
-    
+
     # Regions
     regions_multiple, regions_raw = parse_regions(row["Regions"])
-    
+
     # Links
     links = extract_links(row["Links"])
-    
-    # Access URL
-    access_url = links[0] if len(links) == 1 else None
-    access_notes = ""
+
+    # Access URL: always use first link if available
+    access_url = links[0] if links else ""
+
+    # Access notes
+    access_notes_parts = []
     if len(links) > 1:
-        access_notes = f"{len(links)} links available, see links field"
+        access_notes_parts.append(f"{len(links)} links available, see links field")
     elif len(links) == 0:
-        access_notes = "No direct link available"
-    
-    # Access type
+        access_notes_parts.append("No direct link available")
+
     access_type_icon = row.get("Access", "").strip()
     if access_type_icon == "🔓":
-        access_notes = access_notes or "Open access"
+        if not access_notes_parts:
+            access_notes_parts.append("Open access")
     elif access_type_icon == "📧":
-        access_notes = "Registration or request required"
-    
+        access_notes_parts.append("Registration or request required")
+
+    access_notes = "; ".join(access_notes_parts)
+
     # Abbreviation (nullable)
     abbreviation = abbrev.strip() if abbrev.strip() else None
-    
+
     # Build dataset object
     dataset = {
         "dataset_id": dataset_id,
@@ -416,7 +433,7 @@ def parse_row(row: Dict[str, str]) -> Dict[str, Any]:
         "regions_multiple": regions_multiple,
         "regions_raw": regions_raw,
         "access": {
-            "url": access_url or "",
+            "url": access_url,
             "access_notes": access_notes,
         },
         "links": links,
@@ -426,11 +443,11 @@ def parse_row(row: Dict[str, str]) -> Dict[str, Any]:
             "bibtex": None,
         },
         "source_paper": {
-            "in_baur_2024": False,
+            "in_baur_2024": in_baur_2024,
             "baur_2024_usage_count": None,
         },
     }
-    
+
     return dataset
 
 
@@ -466,25 +483,68 @@ def write_yaml(datasets: List[Dict[str, Any]], output_path: Path) -> None:
 # MAIN
 # ============================================================================
 
+def apply_overrides(datasets: List[Dict[str, Any]], overrides_path: Path) -> List[Dict[str, Any]]:
+    """
+    Merge optional overrides into parsed datasets.
+    Overrides are keyed by dataset_id and do a shallow dict update.
+    """
+    if not overrides_path.exists():
+        return datasets
+
+    with overrides_path.open(encoding="utf-8") as f:
+        overrides = yaml.safe_load(f)
+
+    if not overrides:
+        return datasets
+
+    # Build lookup by dataset_id
+    overrides_by_id = {}
+    for dataset_id, fields in overrides.items():
+        if isinstance(fields, dict):
+            overrides_by_id[dataset_id] = fields
+        else:
+            print(f"Warning: Override for '{dataset_id}' is not a dict, skipping.", file=sys.stderr)
+
+    applied = 0
+    for dataset in datasets:
+        did = dataset["dataset_id"]
+        if did in overrides_by_id:
+            dataset.update(overrides_by_id[did])
+            applied += 1
+
+    unused = set(overrides_by_id) - {d["dataset_id"] for d in datasets}
+    for uid in sorted(unused):
+        print(f"Warning: Override for '{uid}' does not match any dataset_id.", file=sys.stderr)
+
+    if applied:
+        print(f"Applied overrides to {applied} dataset(s).")
+
+    return datasets
+
+
 def main():
     """Main entry point."""
     # Paths
     repo_root = Path(__file__).parent.parent
     readme_path = repo_root / "README.md"
+    overrides_path = repo_root / "metadata" / "overrides.yaml"
     output_path = repo_root / "metadata" / "datasets.yaml"
-    
+
     # Read README
     if not readme_path.exists():
         print(f"Error: README.md not found at {readme_path}", file=sys.stderr)
         sys.exit(1)
-    
+
     readme_content = readme_path.read_text(encoding="utf-8")
-    
+
     # Parse table
     print(f"Parsing README table from {readme_path}...")
     datasets = parse_markdown_table(readme_content)
     print(f"Parsed {len(datasets)} datasets.")
-    
+
+    # Apply overrides
+    datasets = apply_overrides(datasets, overrides_path)
+
     # Write YAML
     print(f"Writing to {output_path}...")
     write_yaml(datasets, output_path)

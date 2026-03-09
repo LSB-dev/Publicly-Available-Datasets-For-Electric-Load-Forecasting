@@ -16,7 +16,7 @@ The schema is designed to support both human-readable curation (README table) an
 Manual edits to `metadata/datasets.yaml` will be overwritten by the generator.
 
 ## General conventions
-- `dataset_id` is stable and unique; allowed pattern: `^[a-z0-9_]+$`
+- `dataset_id` is stable and unique; allowed pattern: `^[a-z0-9_-]+$`
 - Dates are ISO strings:
   - `"YYYY-MM"` if only month is known
   - `"YYYY-MM-DD"` if exact date is known
