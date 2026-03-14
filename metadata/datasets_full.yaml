@@ -1,0 +1,1725 @@
+- dataset_id: iso-ne
+  name: New England Independent System Operator
+  abbreviation: ISO-NE
+  type: collection
+  domain: system
+  domain_raw: S
+  resolution_minutes: 60
+  resolution_raw: '60'
+  features:
+  - load
+  features_raw: E
+  time_coverage:
+    start_date: 2003-01
+    end_date: 2014-12
+  time_coverage_raw: 2003-2014
+  duration_months: 108
+  duration_raw: '108'
+  horizons:
+  - st
+  - mt
+  regions_multiple: true
+  regions_raw: ✔️
+  access:
+    url: https://www.iso-ne.com/isoexpress/web/reports/pricing/-/tree/zone-info
+    access_notes: Open access
+  links:
+  - https://www.iso-ne.com/isoexpress/web/reports/pricing/-/tree/zone-info
+  license: CC BY 4.0
+  citation:
+    preferred_citation: 'Baur, L.; Chandramouli, V.; Sauer, A.: Publicly Available
+      Datasets For Electric Load Forecasting – An Overview. In: Herberger, D.; Hübner,
+      M. (Eds.): Proceedings of the CPSL 2024. Hannover : publish-Ing., 2024, S. 1–12.
+      DOI: https://doi.org/10.15488/17659'
+    bibtex: "@inproceedings{baur2024datasets,\n  author    = {Baur, Lukas and Chandramouli,\
+      \ Vignesh and Sauer, Alexander},\n  title     = {Publicly Available Datasets\
+      \ For Electric Load Forecasting – An Overview},\n  booktitle = {Proceedings\
+      \ of the CPSL 2024},\n  editor    = {Herberger, D. and Hübner, M.},\n  location\
+      \  = {Hannover},\n  publisher = {publish-Ing.},\n  year      = {2024},\n  pages\
+      \     = {1--12},\n  doi       = {10.15488/17659}\n}\n"
+  source_paper:
+    in_baur_2024: true
+    baur_2024_usage_count: null
+- dataset_id: nyiso
+  name: New York Independent System Operator
+  abbreviation: NYISO
+  type: collection
+  domain: system
+  domain_raw: S
+  resolution_minutes: 5
+  resolution_raw: '5'
+  features:
+  - load
+  features_raw: E
+  time_coverage:
+    start_date: 2001-01
+    end_date: 2023-12
+  time_coverage_raw: 2001-2023
+  duration_months: 264
+  duration_raw: '264'
+  horizons:
+  - vst
+  - st
+  - mt
+  regions_multiple: true
+  regions_raw: ✔️
+  access:
+    url: http://mis.nyiso.com/public/P-58Blist.htm
+    access_notes: Open access
+  links:
+  - http://mis.nyiso.com/public/P-58Blist.htm
+  license: CC BY 4.0
+  citation:
+    preferred_citation: 'Baur, L.; Chandramouli, V.; Sauer, A.: Publicly Available
+      Datasets For Electric Load Forecasting – An Overview. In: Herberger, D.; Hübner,
+      M. (Eds.): Proceedings of the CPSL 2024. Hannover : publish-Ing., 2024, S. 1–12.
+      DOI: https://doi.org/10.15488/17659'
+    bibtex: "@inproceedings{baur2024datasets,\n  author    = {Baur, Lukas and Chandramouli,\
+      \ Vignesh and Sauer, Alexander},\n  title     = {Publicly Available Datasets\
+      \ For Electric Load Forecasting – An Overview},\n  booktitle = {Proceedings\
+      \ of the CPSL 2024},\n  editor    = {Herberger, D. and Hübner, M.},\n  location\
+      \  = {Hannover},\n  publisher = {publish-Ing.},\n  year      = {2024},\n  pages\
+      \     = {1--12},\n  doi       = {10.15488/17659}\n}\n"
+  source_paper:
+    in_baur_2024: true
+    baur_2024_usage_count: null
+- dataset_id: pjm
+  name: PJM Hourly Energy Consumption
+  abbreviation: PJM
+  type: collection
+  domain: system
+  domain_raw: S
+  resolution_minutes: 60
+  resolution_raw: '60'
+  features:
+  - load
+  features_raw: E
+  time_coverage:
+    start_date: 1998-01
+    end_date: 2018-12
+  time_coverage_raw: 1998-2018
+  duration_months: 240
+  duration_raw: '240'
+  horizons:
+  - st
+  - mt
+  - lt
+  regions_multiple: true
+  regions_raw: ✔️
+  access:
+    url: https://www.kaggle.com/datasets/robikscube/hourly-energy-consumption?resource=download
+    access_notes: Open access
+  links:
+  - https://www.kaggle.com/datasets/robikscube/hourly-energy-consumption?resource=download
+  license: CC BY 4.0
+  citation:
+    preferred_citation: 'Baur, L.; Chandramouli, V.; Sauer, A.: Publicly Available
+      Datasets For Electric Load Forecasting – An Overview. In: Herberger, D.; Hübner,
+      M. (Eds.): Proceedings of the CPSL 2024. Hannover : publish-Ing., 2024, S. 1–12.
+      DOI: https://doi.org/10.15488/17659'
+    bibtex: "@inproceedings{baur2024datasets,\n  author    = {Baur, Lukas and Chandramouli,\
+      \ Vignesh and Sauer, Alexander},\n  title     = {Publicly Available Datasets\
+      \ For Electric Load Forecasting – An Overview},\n  booktitle = {Proceedings\
+      \ of the CPSL 2024},\n  editor    = {Herberger, D. and Hübner, M.},\n  location\
+      \  = {Hannover},\n  publisher = {publish-Ing.},\n  year      = {2024},\n  pages\
+      \     = {1--12},\n  doi       = {10.15488/17659}\n}\n"
+  source_paper:
+    in_baur_2024: true
+    baur_2024_usage_count: null
+- dataset_id: cif
+  name: CIF 2016 competition dataset
+  abbreviation: CIF
+  type: collection
+  domain: unknown
+  domain_raw: '?'
+  resolution_minutes: null
+  resolution_raw: d,m,y
+  features: []
+  features_raw: Undef.
+  time_coverage:
+    start_date: null
+    end_date: null
+  time_coverage_raw: unknown
+  duration_months: null
+  duration_raw: 8-909
+  horizons:
+  - mt
+  - lt
+  regions_multiple: false
+  regions_raw: ❌
+  access:
+    url: https://irafm.osu.cz/cif2015/main.php?c=Static&page=download
+    access_notes: Open access
+  links:
+  - https://irafm.osu.cz/cif2015/main.php?c=Static&page=download
+  license: CC BY 4.0
+  citation:
+    preferred_citation: 'Baur, L.; Chandramouli, V.; Sauer, A.: Publicly Available
+      Datasets For Electric Load Forecasting – An Overview. In: Herberger, D.; Hübner,
+      M. (Eds.): Proceedings of the CPSL 2024. Hannover : publish-Ing., 2024, S. 1–12.
+      DOI: https://doi.org/10.15488/17659'
+    bibtex: "@inproceedings{baur2024datasets,\n  author    = {Baur, Lukas and Chandramouli,\
+      \ Vignesh and Sauer, Alexander},\n  title     = {Publicly Available Datasets\
+      \ For Electric Load Forecasting – An Overview},\n  booktitle = {Proceedings\
+      \ of the CPSL 2024},\n  editor    = {Herberger, D. and Hübner, M.},\n  location\
+      \  = {Hannover},\n  publisher = {publish-Ing.},\n  year      = {2024},\n  pages\
+      \     = {1--12},\n  doi       = {10.15488/17659}\n}\n"
+  source_paper:
+    in_baur_2024: true
+    baur_2024_usage_count: null
+- dataset_id: gefcom14
+  name: GEFCom 2014
+  abbreviation: GEFCOM14
+  type: collection
+  domain: system
+  domain_raw: S
+  resolution_minutes: 60
+  resolution_raw: '60'
+  features:
+  - load
+  - weather
+  - temperature
+  - pv
+  features_raw: E, W, T, PV
+  time_coverage:
+    start_date: 2021-01
+    end_date: 2021-12
+  time_coverage_raw: '2021'
+  duration_months: 10
+  duration_raw: '10'
+  horizons:
+  - st
+  regions_multiple: false
+  regions_raw: ❌
+  access:
+    url: https://www.dropbox.com/s/pqenrr2mcvl0hk9/GEFCom2014.zip?dl=0&file_subpath=%2FGEFCom2014+Data
+    access_notes: Open access
+  links:
+  - https://www.dropbox.com/s/pqenrr2mcvl0hk9/GEFCom2014.zip?dl=0&file_subpath=%2FGEFCom2014+Data
+  license: CC BY 4.0
+  citation:
+    preferred_citation: 'Baur, L.; Chandramouli, V.; Sauer, A.: Publicly Available
+      Datasets For Electric Load Forecasting – An Overview. In: Herberger, D.; Hübner,
+      M. (Eds.): Proceedings of the CPSL 2024. Hannover : publish-Ing., 2024, S. 1–12.
+      DOI: https://doi.org/10.15488/17659'
+    bibtex: "@inproceedings{baur2024datasets,\n  author    = {Baur, Lukas and Chandramouli,\
+      \ Vignesh and Sauer, Alexander},\n  title     = {Publicly Available Datasets\
+      \ For Electric Load Forecasting – An Overview},\n  booktitle = {Proceedings\
+      \ of the CPSL 2024},\n  editor    = {Herberger, D. and Hübner, M.},\n  location\
+      \  = {Hannover},\n  publisher = {publish-Ing.},\n  year      = {2024},\n  pages\
+      \     = {1--12},\n  doi       = {10.15488/17659}\n}\n"
+  source_paper:
+    in_baur_2024: true
+    baur_2024_usage_count: null
+- dataset_id: eunite
+  name: EUNITE 2001
+  abbreviation: EUNITE
+  type: collection
+  domain: system
+  domain_raw: S
+  resolution_minutes: 30
+  resolution_raw: '30'
+  features:
+  - load
+  - temperature
+  - holiday
+  features_raw: E, T, H
+  time_coverage:
+    start_date: 1997-01
+    end_date: 1999-12
+  time_coverage_raw: 1997-1999
+  duration_months: 24
+  duration_raw: '24'
+  horizons:
+  - st
+  - mt
+  regions_multiple: false
+  regions_raw: ❌
+  access:
+    url: https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/regression.html
+    access_notes: Open access
+  links:
+  - https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/regression.html
+  license: CC BY 4.0
+  citation:
+    preferred_citation: 'Baur, L.; Chandramouli, V.; Sauer, A.: Publicly Available
+      Datasets For Electric Load Forecasting – An Overview. In: Herberger, D.; Hübner,
+      M. (Eds.): Proceedings of the CPSL 2024. Hannover : publish-Ing., 2024, S. 1–12.
+      DOI: https://doi.org/10.15488/17659'
+    bibtex: "@inproceedings{baur2024datasets,\n  author    = {Baur, Lukas and Chandramouli,\
+      \ Vignesh and Sauer, Alexander},\n  title     = {Publicly Available Datasets\
+      \ For Electric Load Forecasting – An Overview},\n  booktitle = {Proceedings\
+      \ of the CPSL 2024},\n  editor    = {Herberger, D. and Hübner, M.},\n  location\
+      \  = {Hannover},\n  publisher = {publish-Ing.},\n  year      = {2024},\n  pages\
+      \     = {1--12},\n  doi       = {10.15488/17659}\n}\n"
+  source_paper:
+    in_baur_2024: true
+    baur_2024_usage_count: null
+- dataset_id: entso-e
+  name: ENTSO-E electric load dataset
+  abbreviation: ENTSO-E
+  type: collection
+  domain: system
+  domain_raw: S
+  resolution_minutes: 60
+  resolution_raw: '60'
+  features:
+  - load
+  features_raw: E
+  time_coverage:
+    start_date: null
+    end_date: 2015-12
+  time_coverage_raw: till 2015
+  duration_months: null
+  duration_raw: <=288
+  horizons:
+  - st
+  - mt
+  - lt
+  regions_multiple: true
+  regions_raw: ✔️
+  access:
+    url: https://www.entsoe.eu/publications/statistics-and-data/
+    access_notes: Open access
+  links:
+  - https://www.entsoe.eu/publications/statistics-and-data/
+  license: CC BY 4.0
+  citation:
+    preferred_citation: 'Baur, L.; Chandramouli, V.; Sauer, A.: Publicly Available
+      Datasets For Electric Load Forecasting – An Overview. In: Herberger, D.; Hübner,
+      M. (Eds.): Proceedings of the CPSL 2024. Hannover : publish-Ing., 2024, S. 1–12.
+      DOI: https://doi.org/10.15488/17659'
+    bibtex: "@inproceedings{baur2024datasets,\n  author    = {Baur, Lukas and Chandramouli,\
+      \ Vignesh and Sauer, Alexander},\n  title     = {Publicly Available Datasets\
+      \ For Electric Load Forecasting – An Overview},\n  booktitle = {Proceedings\
+      \ of the CPSL 2024},\n  editor    = {Herberger, D. and Hübner, M.},\n  location\
+      \  = {Hannover},\n  publisher = {publish-Ing.},\n  year      = {2024},\n  pages\
+      \     = {1--12},\n  doi       = {10.15488/17659}\n}\n"
+  source_paper:
+    in_baur_2024: true
+    baur_2024_usage_count: null
+- dataset_id: eweld
+  name: Large-Scale Industrial and Commercial Load Dataset in Extreme Weather Events
+  abbreviation: EWELD
+  type: collection
+  domain: industrial
+  domain_raw: I
+  resolution_minutes: 15
+  resolution_raw: '15'
+  features:
+  - load
+  - weather
+  - extreme_weather
+  features_raw: E, W, xW
+  time_coverage:
+    start_date: 2016-01
+    end_date: 2022-12
+  time_coverage_raw: 2016-2022
+  duration_months: null
+  duration_raw: <=74
+  horizons:
+  - vst
+  - st
+  - mt
+  - lt
+  regions_multiple: true
+  regions_raw: ✔️ (386)
+  access:
+    url: https://www.nature.com/articles/s41597-023-02503-6
+    access_notes: Open access
+  links:
+  - https://www.nature.com/articles/s41597-023-02503-6
+  license: unknown
+  citation:
+    preferred_citation: ''
+    bibtex: null
+  source_paper:
+    in_baur_2024: false
+    baur_2024_usage_count: null
+- dataset_id: wpuq
+  name: Electrical single-family house and heat pump load
+  abbreviation: WPuQ
+  type: collection
+  domain: residential
+  domain_raw: R
+  resolution_minutes: null
+  resolution_raw: <1
+  features:
+  - load
+  features_raw: E
+  time_coverage:
+    start_date: 2018-01
+    end_date: 2020-12
+  time_coverage_raw: 2018-2020
+  duration_months: 30
+  duration_raw: '30'
+  horizons:
+  - st
+  - mt
+  regions_multiple: true
+  regions_raw: ✔️ (38)
+  access:
+    url: https://www.nature.com/articles/s41597-022-01156-1
+    access_notes: Open access
+  links:
+  - https://www.nature.com/articles/s41597-022-01156-1
+  license: unknown
+  citation:
+    preferred_citation: ''
+    bibtex: null
+  source_paper:
+    in_baur_2024: false
+    baur_2024_usage_count: null
+- dataset_id: panetesa
+  name: Panama ETESA
+  abbreviation: PanETESA
+  type: collection
+  domain: system
+  domain_raw: S
+  resolution_minutes: 60
+  resolution_raw: '60'
+  features:
+  - load
+  - weather
+  - holiday
+  features_raw: E, W, H
+  time_coverage:
+    start_date: 2015-01
+    end_date: 2020-12
+  time_coverage_raw: 2015-2020
+  duration_months: 66
+  duration_raw: '66'
+  horizons:
+  - st
+  - mt
+  - lt
+  regions_multiple: false
+  regions_raw: ❌
+  access:
+    url: https://www.kaggle.com/datasets/ernestojaguilar/shortterm-electricity-load-forecasting-panama
+    access_notes: Open access
+  links:
+  - https://www.kaggle.com/datasets/ernestojaguilar/shortterm-electricity-load-forecasting-panama
+  license: unknown
+  citation:
+    preferred_citation: ''
+    bibtex: null
+  source_paper:
+    in_baur_2024: false
+    baur_2024_usage_count: null
+- dataset_id: refit
+  name: 'REFIT: Electrical Load Measurements'
+  abbreviation: REFIT
+  type: collection
+  domain: unknown
+  domain_raw: H
+  resolution_minutes: null
+  resolution_raw: 8sec
+  features:
+  - load
+  features_raw: E
+  time_coverage:
+    start_date: 2013-01
+    end_date: 2015-12
+  time_coverage_raw: 2013-2015
+  duration_months: 20
+  duration_raw: '20'
+  horizons:
+  - vst
+  - st
+  - mt
+  regions_multiple: true
+  regions_raw: ✔️(20)
+  access:
+    url: https://doi.org/10.15129/31da3ece-f902-4e95-a093-e0a9536983c4
+    access_notes: 2 links available, see links field
+  links:
+  - https://doi.org/10.15129/31da3ece-f902-4e95-a093-e0a9536983c4
+  - https://doi.org/10.5281/zenodo.5063428
+  license: unknown
+  citation:
+    preferred_citation: ''
+    bibtex: null
+  source_paper:
+    in_baur_2024: false
+    baur_2024_usage_count: null
+- dataset_id: ecd-uy
+  name: household electricity consumption dataset of Uruguay
+  abbreviation: ECD-UY
+  type: collection
+  domain: unknown
+  domain_raw: S, R
+  resolution_minutes: null
+  resolution_raw: 1-15
+  features:
+  - load
+  features_raw: E
+  time_coverage:
+    start_date: 2019-01
+    end_date: 2020-12
+  time_coverage_raw: 2019-2020
+  duration_months: null
+  duration_raw: 11-23
+  horizons:
+  - vst
+  - st
+  regions_multiple: true
+  regions_raw: ✔️(9)
+  access:
+    url: https://www.nature.com/articles/s41597-022-01122-x
+    access_notes: 2 links available, see links field
+  links:
+  - https://www.nature.com/articles/s41597-022-01122-x
+  - https://doi.org/10.6084/m9.figshare.c.5428608.v1
+  license: unknown
+  citation:
+    preferred_citation: ''
+    bibtex: null
+  source_paper:
+    in_baur_2024: false
+    baur_2024_usage_count: null
+- dataset_id: ideal
+  name: IDEAL UK Household Energy Dataset 255
+  abbreviation: IDEAL
+  type: collection
+  domain: residential
+  domain_raw: R
+  resolution_minutes: null
+  resolution_raw: 1-12sec
+  features:
+  - load
+  - weather
+  - temperature
+  features_raw: E, W, T
+  time_coverage:
+    start_date: 2019-01
+    end_date: 2020-12
+  time_coverage_raw: 2019-2020
+  duration_months: 23
+  duration_raw: '23'
+  horizons:
+  - vst
+  - st
+  - mt
+  regions_multiple: true
+  regions_raw: ✔️(255)
+  access:
+    url: https://www.nature.com/articles/s41597-021-00921-y
+    access_notes: 2 links available, see links field
+  links:
+  - https://www.nature.com/articles/s41597-021-00921-y
+  - https://doi.org/10.7488/ds/2836
+  license: unknown
+  citation:
+    preferred_citation: ''
+    bibtex: null
+  source_paper:
+    in_baur_2024: false
+    baur_2024_usage_count: null
+- dataset_id: hanoi-res
+  name: Residential Apartments Dataset Hanoi, Vietnam (CAMaRSEC Project)
+  abbreviation: HANOI-Res
+  type: collection
+  domain: residential
+  domain_raw: R
+  resolution_minutes: 15
+  resolution_raw: '15'
+  features:
+  - load
+  - weather
+  - temperature
+  features_raw: E, W, T
+  time_coverage:
+    start_date: 2020-01
+    end_date: 2021-12
+  time_coverage_raw: 2020-2021
+  duration_months: 12
+  duration_raw: '12'
+  horizons:
+  - vst
+  - st
+  regions_multiple: true
+  regions_raw: ✔️(49)
+  access:
+    url: https://data.mendeley.com/datasets/s9wkdww94w/2
+    access_notes: 2 links available, see links field
+  links:
+  - https://data.mendeley.com/datasets/s9wkdww94w/2
+  - https://doi.org/10.17632/s9wkdww94w.2
+  license: unknown
+  citation:
+    preferred_citation: ''
+    bibtex: null
+  source_paper:
+    in_baur_2024: false
+    baur_2024_usage_count: null
+- dataset_id: uk-dale
+  name: UK Domestic Appliance Level Electricity (UKERC EDC), Disaggregated (6s)  and
+    aggregated (1s)
+  abbreviation: UK-DALE
+  type: collection
+  domain: residential
+  domain_raw: R
+  resolution_minutes: null
+  resolution_raw: 1-6sec
+  features:
+  - load
+  features_raw: E
+  time_coverage:
+    start_date: 2012-01
+    end_date: 2017-12
+  time_coverage_raw: 2012-2017
+  duration_months: null
+  duration_raw: 5-53
+  horizons:
+  - vst
+  - st
+  - mt
+  - lt
+  regions_multiple: true
+  regions_raw: ✔️(5)
+  access:
+    url: https://data.ukedc.rl.ac.uk/browse/edc/efficiency/residential/EnergyConsumption/Domestic/UK-DALE-2017/ReadMe_DALE-2017.html
+    access_notes: 3 links available, see links field
+  links:
+  - https://data.ukedc.rl.ac.uk/browse/edc/efficiency/residential/EnergyConsumption/Domestic/UK-DALE-2017/ReadMe_DALE-2017.html
+  - http://www.nature.com/articles/sdata20157
+  - https://doi.org/10.1038/sdata.2015.7
+  license: unknown
+  citation:
+    preferred_citation: ''
+    bibtex: null
+  source_paper:
+    in_baur_2024: false
+    baur_2024_usage_count: null
+- dataset_id: lcl
+  name: LCL Load Dataset (London Households)
+  abbreviation: LCL
+  type: file_archive
+  domain: unknown
+  domain_raw: H
+  resolution_minutes: 30
+  resolution_raw: '30'
+  features:
+  - load
+  features_raw: E
+  time_coverage:
+    start_date: 2013-01
+    end_date: 2013-12
+  time_coverage_raw: '2013'
+  duration_months: 12
+  duration_raw: '12'
+  horizons:
+  - st
+  regions_multiple: false
+  regions_raw: ❌
+  access:
+    url: https://data.london.gov.uk/dataset/smartmeter-energy-use-data-in-london-households
+    access_notes: Open access
+  links:
+  - https://data.london.gov.uk/dataset/smartmeter-energy-use-data-in-london-households
+  license: CC BY 4.0
+  citation:
+    preferred_citation: 'Baur, L.; Chandramouli, V.; Sauer, A.: Publicly Available
+      Datasets For Electric Load Forecasting – An Overview. In: Herberger, D.; Hübner,
+      M. (Eds.): Proceedings of the CPSL 2024. Hannover : publish-Ing., 2024, S. 1–12.
+      DOI: https://doi.org/10.15488/17659'
+    bibtex: "@inproceedings{baur2024datasets,\n  author    = {Baur, Lukas and Chandramouli,\
+      \ Vignesh and Sauer, Alexander},\n  title     = {Publicly Available Datasets\
+      \ For Electric Load Forecasting – An Overview},\n  booktitle = {Proceedings\
+      \ of the CPSL 2024},\n  editor    = {Herberger, D. and Hübner, M.},\n  location\
+      \  = {Hannover},\n  publisher = {publish-Ing.},\n  year      = {2024},\n  pages\
+      \     = {1--12},\n  doi       = {10.15488/17659}\n}\n"
+  source_paper:
+    in_baur_2024: true
+    baur_2024_usage_count: null
+- dataset_id: set
+  name: Energy Consumption Dataset for Milano/Trento
+  abbreviation: SET
+  type: file_archive
+  domain: system
+  domain_raw: S
+  resolution_minutes: 10
+  resolution_raw: '10'
+  features:
+  - load
+  features_raw: E
+  time_coverage:
+    start_date: 2013-01
+    end_date: 2013-12
+  time_coverage_raw: '2013'
+  duration_months: null
+  duration_raw: <1
+  horizons:
+  - vst
+  regions_multiple: false
+  regions_raw: ❌
+  access:
+    url: https://www.nature.com/articles/sdata201555
+    access_notes: Open access
+  links:
+  - https://www.nature.com/articles/sdata201555
+  license: CC BY 4.0
+  citation:
+    preferred_citation: 'Baur, L.; Chandramouli, V.; Sauer, A.: Publicly Available
+      Datasets For Electric Load Forecasting – An Overview. In: Herberger, D.; Hübner,
+      M. (Eds.): Proceedings of the CPSL 2024. Hannover : publish-Ing., 2024, S. 1–12.
+      DOI: https://doi.org/10.15488/17659'
+    bibtex: "@inproceedings{baur2024datasets,\n  author    = {Baur, Lukas and Chandramouli,\
+      \ Vignesh and Sauer, Alexander},\n  title     = {Publicly Available Datasets\
+      \ For Electric Load Forecasting – An Overview},\n  booktitle = {Proceedings\
+      \ of the CPSL 2024},\n  editor    = {Herberger, D. and Hübner, M.},\n  location\
+      \  = {Hannover},\n  publisher = {publish-Ing.},\n  year      = {2024},\n  pages\
+      \     = {1--12},\n  doi       = {10.15488/17659}\n}\n"
+  source_paper:
+    in_baur_2024: true
+    baur_2024_usage_count: null
+- dataset_id: bdg-proj
+  name: Building Data Genome Project
+  abbreviation: BDG-Proj
+  type: file_archive
+  domain: system
+  domain_raw: S
+  resolution_minutes: 60
+  resolution_raw: '60'
+  features:
+  - load
+  features_raw: E
+  time_coverage:
+    start_date: null
+    end_date: null
+  time_coverage_raw: unknown
+  duration_months: 12
+  duration_raw: '12'
+  horizons:
+  - st
+  regions_multiple: true
+  regions_raw: ✔️
+  access:
+    url: https://github.com/buds-lab/the-building-data-genome-project
+    access_notes: Open access
+  links:
+  - https://github.com/buds-lab/the-building-data-genome-project
+  license: CC BY 4.0
+  citation:
+    preferred_citation: 'Baur, L.; Chandramouli, V.; Sauer, A.: Publicly Available
+      Datasets For Electric Load Forecasting – An Overview. In: Herberger, D.; Hübner,
+      M. (Eds.): Proceedings of the CPSL 2024. Hannover : publish-Ing., 2024, S. 1–12.
+      DOI: https://doi.org/10.15488/17659'
+    bibtex: "@inproceedings{baur2024datasets,\n  author    = {Baur, Lukas and Chandramouli,\
+      \ Vignesh and Sauer, Alexander},\n  title     = {Publicly Available Datasets\
+      \ For Electric Load Forecasting – An Overview},\n  booktitle = {Proceedings\
+      \ of the CPSL 2024},\n  editor    = {Herberger, D. and Hübner, M.},\n  location\
+      \  = {Hannover},\n  publisher = {publish-Ing.},\n  year      = {2024},\n  pages\
+      \     = {1--12},\n  doi       = {10.15488/17659}\n}\n"
+  source_paper:
+    in_baur_2024: true
+    baur_2024_usage_count: null
+- dataset_id: bdg-proj2
+  name: Building Data Genome Project 2 (BDG2)
+  abbreviation: BDG-Proj2
+  type: file_archive
+  domain: residential
+  domain_raw: R
+  resolution_minutes: 60
+  resolution_raw: '60'
+  features:
+  - load
+  features_raw: E
+  time_coverage:
+    start_date: 2016-01
+    end_date: 2017-12
+  time_coverage_raw: 2016-2017
+  duration_months: 24
+  duration_raw: '24'
+  horizons:
+  - st
+  - mt
+  regions_multiple: true
+  regions_raw: ✔️ (1636)
+  access:
+    url: https://github.com/buds-lab/building-data-genome-project-2
+    access_notes: Open access
+  links:
+  - https://github.com/buds-lab/building-data-genome-project-2
+  license: unknown
+  citation:
+    preferred_citation: ''
+    bibtex: null
+  source_paper:
+    in_baur_2024: false
+    baur_2024_usage_count: null
+- dataset_id: ihpc
+  name: Individual Household power consumption
+  abbreviation: IHPC
+  type: file_archive
+  domain: system
+  domain_raw: S
+  resolution_minutes: 1
+  resolution_raw: '1'
+  features:
+  - load
+  features_raw: E
+  time_coverage:
+    start_date: 2006-01
+    end_date: 2010-12
+  time_coverage_raw: 2006-2010
+  duration_months: 48
+  duration_raw: '48'
+  horizons:
+  - vst
+  - st
+  - mt
+  - lt
+  regions_multiple: false
+  regions_raw: ❌
+  access:
+    url: https://archive.ics.uci.edu/dataset/235/individual+household+electric+power+consumption
+    access_notes: Open access
+  links:
+  - https://archive.ics.uci.edu/dataset/235/individual+household+electric+power+consumption
+  license: CC BY 4.0
+  citation:
+    preferred_citation: 'Baur, L.; Chandramouli, V.; Sauer, A.: Publicly Available
+      Datasets For Electric Load Forecasting – An Overview. In: Herberger, D.; Hübner,
+      M. (Eds.): Proceedings of the CPSL 2024. Hannover : publish-Ing., 2024, S. 1–12.
+      DOI: https://doi.org/10.15488/17659'
+    bibtex: "@inproceedings{baur2024datasets,\n  author    = {Baur, Lukas and Chandramouli,\
+      \ Vignesh and Sauer, Alexander},\n  title     = {Publicly Available Datasets\
+      \ For Electric Load Forecasting – An Overview},\n  booktitle = {Proceedings\
+      \ of the CPSL 2024},\n  editor    = {Herberger, D. and Hübner, M.},\n  location\
+      \  = {Hannover},\n  publisher = {publish-Ing.},\n  year      = {2024},\n  pages\
+      \     = {1--12},\n  doi       = {10.15488/17659}\n}\n"
+  source_paper:
+    in_baur_2024: true
+    baur_2024_usage_count: null
+- dataset_id: gefcom12
+  name: GEFCom 2012
+  abbreviation: GEFCOM12
+  type: file_archive
+  domain: system
+  domain_raw: S
+  resolution_minutes: 60
+  resolution_raw: '60'
+  features:
+  - load
+  - weather
+  - temperature
+  features_raw: E, W, T
+  time_coverage:
+    start_date: 2004-01
+    end_date: 2008-12
+  time_coverage_raw: 2004-2008
+  duration_months: 42
+  duration_raw: '42'
+  horizons:
+  - st
+  - mt
+  regions_multiple: false
+  regions_raw: ❌
+  access:
+    url: https://www.kaggle.com/c/global-energy-forecasting-competition-2012-load-forecasting/
+    access_notes: Open access
+  links:
+  - https://www.kaggle.com/c/global-energy-forecasting-competition-2012-load-forecasting/
+  license: CC BY 4.0
+  citation:
+    preferred_citation: 'Baur, L.; Chandramouli, V.; Sauer, A.: Publicly Available
+      Datasets For Electric Load Forecasting – An Overview. In: Herberger, D.; Hübner,
+      M. (Eds.): Proceedings of the CPSL 2024. Hannover : publish-Ing., 2024, S. 1–12.
+      DOI: https://doi.org/10.15488/17659'
+    bibtex: "@inproceedings{baur2024datasets,\n  author    = {Baur, Lukas and Chandramouli,\
+      \ Vignesh and Sauer, Alexander},\n  title     = {Publicly Available Datasets\
+      \ For Electric Load Forecasting – An Overview},\n  booktitle = {Proceedings\
+      \ of the CPSL 2024},\n  editor    = {Herberger, D. and Hübner, M.},\n  location\
+      \  = {Hannover},\n  publisher = {publish-Ing.},\n  year      = {2024},\n  pages\
+      \     = {1--12},\n  doi       = {10.15488/17659}\n}\n"
+  source_paper:
+    in_baur_2024: true
+    baur_2024_usage_count: null
+- dataset_id: opsd-ts
+  name: Open Power System Data TS
+  abbreviation: OPSD-TS
+  type: file_archive
+  domain: system
+  domain_raw: S
+  resolution_minutes: null
+  resolution_raw: 15-60
+  features:
+  - load
+  - pv
+  - weather
+  features_raw: E, PV, W
+  time_coverage:
+    start_date: 2005-01
+    end_date: 2019-12
+  time_coverage_raw: 2005-2019
+  duration_months: 148
+  duration_raw: '148'
+  horizons:
+  - vst
+  - st
+  - mt
+  - lt
+  regions_multiple: true
+  regions_raw: ✔️
+  access:
+    url: https://doi.org/10.25832/time_series/2019-06-05
+    access_notes: Open access
+  links:
+  - https://doi.org/10.25832/time_series/2019-06-05
+  license: CC BY 4.0
+  citation:
+    preferred_citation: 'Baur, L.; Chandramouli, V.; Sauer, A.: Publicly Available
+      Datasets For Electric Load Forecasting – An Overview. In: Herberger, D.; Hübner,
+      M. (Eds.): Proceedings of the CPSL 2024. Hannover : publish-Ing., 2024, S. 1–12.
+      DOI: https://doi.org/10.15488/17659'
+    bibtex: "@inproceedings{baur2024datasets,\n  author    = {Baur, Lukas and Chandramouli,\
+      \ Vignesh and Sauer, Alexander},\n  title     = {Publicly Available Datasets\
+      \ For Electric Load Forecasting – An Overview},\n  booktitle = {Proceedings\
+      \ of the CPSL 2024},\n  editor    = {Herberger, D. and Hübner, M.},\n  location\
+      \  = {Hannover},\n  publisher = {publish-Ing.},\n  year      = {2024},\n  pages\
+      \     = {1--12},\n  doi       = {10.15488/17659}\n}\n"
+  source_paper:
+    in_baur_2024: true
+    baur_2024_usage_count: null
+- dataset_id: opsd-hh
+  name: Open Power System Data Household Data
+  abbreviation: OPSD-HH
+  type: file_archive
+  domain: unknown
+  domain_raw: R, I
+  resolution_minutes: null
+  resolution_raw: 1-60
+  features:
+  - load
+  - pv
+  features_raw: E, PV
+  time_coverage:
+    start_date: 2012-01
+    end_date: 2019-12
+  time_coverage_raw: 2012-2019
+  duration_months: null
+  duration_raw: diff
+  horizons:
+  - vst
+  - st
+  - mt
+  - lt
+  regions_multiple: true
+  regions_raw: ✔️
+  access:
+    url: https://data.open-power-system-data.org/household_data/
+    access_notes: Open access
+  links:
+  - https://data.open-power-system-data.org/household_data/
+  license: unknown
+  citation:
+    preferred_citation: ''
+    bibtex: null
+  source_paper:
+    in_baur_2024: false
+    baur_2024_usage_count: null
+- dataset_id: eld
+  name: ElectricityLoadDiagrams20112014
+  abbreviation: ELD
+  type: file_archive
+  domain: system
+  domain_raw: S
+  resolution_minutes: 15
+  resolution_raw: '15'
+  features:
+  - load
+  features_raw: E
+  time_coverage:
+    start_date: 2011-01
+    end_date: 2014-12
+  time_coverage_raw: 2011-2014
+  duration_months: 36
+  duration_raw: '36'
+  horizons:
+  - vst
+  - st
+  - mt
+  - lt
+  regions_multiple: false
+  regions_raw: ❌
+  access:
+    url: https://archive.ics.uci.edu/dataset/321/electricityloaddiagrams20112014
+    access_notes: 2 links available, see links field
+  links:
+  - https://archive.ics.uci.edu/dataset/321/electricityloaddiagrams20112014
+  - https://doi.org/10.24432/C58C86
+  license: CC BY 4.0
+  citation:
+    preferred_citation: 'Baur, L.; Chandramouli, V.; Sauer, A.: Publicly Available
+      Datasets For Electric Load Forecasting – An Overview. In: Herberger, D.; Hübner,
+      M. (Eds.): Proceedings of the CPSL 2024. Hannover : publish-Ing., 2024, S. 1–12.
+      DOI: https://doi.org/10.15488/17659'
+    bibtex: "@inproceedings{baur2024datasets,\n  author    = {Baur, Lukas and Chandramouli,\
+      \ Vignesh and Sauer, Alexander},\n  title     = {Publicly Available Datasets\
+      \ For Electric Load Forecasting – An Overview},\n  booktitle = {Proceedings\
+      \ of the CPSL 2024},\n  editor    = {Herberger, D. and Hübner, M.},\n  location\
+      \  = {Hannover},\n  publisher = {publish-Ing.},\n  year      = {2024},\n  pages\
+      \     = {1--12},\n  doi       = {10.15488/17659}\n}\n"
+  source_paper:
+    in_baur_2024: true
+    baur_2024_usage_count: null
+- dataset_id: enertalk
+  name: ENERTALK Dataset Korea (household)
+  abbreviation: ENERTALK
+  type: file_archive
+  domain: system
+  domain_raw: S
+  resolution_minutes: null
+  resolution_raw: 15 hz
+  features:
+  - load
+  features_raw: E
+  time_coverage:
+    start_date: 2016-01
+    end_date: 2016-12
+  time_coverage_raw: '2016'
+  duration_months: 12
+  duration_raw: '12'
+  horizons:
+  - vst
+  - st
+  regions_multiple: false
+  regions_raw: ❌
+  access:
+    url: https://www.nature.com/articles/s41597-019-0212-5
+    access_notes: Open access
+  links:
+  - https://www.nature.com/articles/s41597-019-0212-5
+  license: CC BY 4.0
+  citation:
+    preferred_citation: 'Baur, L.; Chandramouli, V.; Sauer, A.: Publicly Available
+      Datasets For Electric Load Forecasting – An Overview. In: Herberger, D.; Hübner,
+      M. (Eds.): Proceedings of the CPSL 2024. Hannover : publish-Ing., 2024, S. 1–12.
+      DOI: https://doi.org/10.15488/17659'
+    bibtex: "@inproceedings{baur2024datasets,\n  author    = {Baur, Lukas and Chandramouli,\
+      \ Vignesh and Sauer, Alexander},\n  title     = {Publicly Available Datasets\
+      \ For Electric Load Forecasting – An Overview},\n  booktitle = {Proceedings\
+      \ of the CPSL 2024},\n  editor    = {Herberger, D. and Hübner, M.},\n  location\
+      \  = {Hannover},\n  publisher = {publish-Ing.},\n  year      = {2024},\n  pages\
+      \     = {1--12},\n  doi       = {10.15488/17659}\n}\n"
+  source_paper:
+    in_baur_2024: true
+    baur_2024_usage_count: null
+- dataset_id: s-tso
+  name: Spanish Transmission Service operator (TSO)
+  abbreviation: S-TSO
+  type: file_archive
+  domain: unknown
+  domain_raw: H
+  resolution_minutes: 60
+  resolution_raw: '60'
+  features: []
+  features_raw: '>25'
+  time_coverage:
+    start_date: 2017-01
+    end_date: 2018-12
+  time_coverage_raw: 2017-2018
+  duration_months: 24
+  duration_raw: '24'
+  horizons:
+  - st
+  - mt
+  regions_multiple: false
+  regions_raw: ❌
+  access:
+    url: https://www.kaggle.com/datasets/nicholasjhana/energy-consumption-generation-prices-and-weather
+    access_notes: Open access
+  links:
+  - https://www.kaggle.com/datasets/nicholasjhana/energy-consumption-generation-prices-and-weather
+  license: CC BY 4.0
+  citation:
+    preferred_citation: 'Baur, L.; Chandramouli, V.; Sauer, A.: Publicly Available
+      Datasets For Electric Load Forecasting – An Overview. In: Herberger, D.; Hübner,
+      M. (Eds.): Proceedings of the CPSL 2024. Hannover : publish-Ing., 2024, S. 1–12.
+      DOI: https://doi.org/10.15488/17659'
+    bibtex: "@inproceedings{baur2024datasets,\n  author    = {Baur, Lukas and Chandramouli,\
+      \ Vignesh and Sauer, Alexander},\n  title     = {Publicly Available Datasets\
+      \ For Electric Load Forecasting – An Overview},\n  booktitle = {Proceedings\
+      \ of the CPSL 2024},\n  editor    = {Herberger, D. and Hübner, M.},\n  location\
+      \  = {Hannover},\n  publisher = {publish-Ing.},\n  year      = {2024},\n  pages\
+      \     = {1--12},\n  doi       = {10.15488/17659}\n}\n"
+  source_paper:
+    in_baur_2024: true
+    baur_2024_usage_count: null
+- dataset_id: cer
+  name: CER Smart Metering Project
+  abbreviation: CER
+  type: file_archive
+  domain: unknown
+  domain_raw: R,I
+  resolution_minutes: 30
+  resolution_raw: '30'
+  features:
+  - load
+  features_raw: E
+  time_coverage:
+    start_date: 2009-01
+    end_date: 2010-12
+  time_coverage_raw: 2009-2010
+  duration_months: 18
+  duration_raw: '18'
+  horizons:
+  - st
+  - mt
+  regions_multiple: true
+  regions_raw: ✔️(5237)
+  access:
+    url: https://www.ucd.ie/issda/data/commissionforenergyregulationcer/
+    access_notes: Registration or request required
+  links:
+  - https://www.ucd.ie/issda/data/commissionforenergyregulationcer/
+  license: unknown
+  citation:
+    preferred_citation: ''
+    bibtex: null
+  source_paper:
+    in_baur_2024: false
+    baur_2024_usage_count: null
+- dataset_id: deddiag
+  name: domestic electricity demand dataset (individual appliances in Germany)
+  abbreviation: DEDDIAG
+  type: file_archive
+  domain: residential
+  domain_raw: R
+  resolution_minutes: null
+  resolution_raw: 1Hz
+  features:
+  - load
+  features_raw: E
+  time_coverage:
+    start_date: 2011-01
+    end_date: 2014-12
+  time_coverage_raw: 2011-2014
+  duration_months: null
+  duration_raw: 2-44
+  horizons:
+  - vst
+  - st
+  - mt
+  regions_multiple: true
+  regions_raw: ✔️(14)
+  access:
+    url: ' https://www.nature.com/articles/s41597-021-00963-2'
+    access_notes: 2 links available, see links field
+  links:
+  - ' https://www.nature.com/articles/s41597-021-00963-2'
+  - https://figshare.com/articles/dataset/DEDDIAG_a_domestic_electricity_demand_dataset_of_individual_appliances_in_Germany/13615073
+  license: unknown
+  citation:
+    preferred_citation: ''
+    bibtex: null
+  source_paper:
+    in_baur_2024: false
+    baur_2024_usage_count: null
+- dataset_id: aussmartgrid
+  name: Electricity Use Interval Reading
+  abbreviation: AusSmartGrid
+  type: file_archive
+  domain: residential
+  domain_raw: R
+  resolution_minutes: 60
+  resolution_raw: '60'
+  features:
+  - load
+  features_raw: E
+  time_coverage:
+    start_date: 2010-01
+    end_date: 2014-12
+  time_coverage_raw: 2010-2014
+  duration_months: null
+  duration_raw: '?'
+  horizons:
+  - st
+  - mt
+  regions_multiple: true
+  regions_raw: ✔️
+  access:
+    url: https://data.gov.au/data/dataset/smart-grid-smart-city-customer-trial-data/resource/b71eb954-196a-4901-82fd-69b17f88521e
+    access_notes: Open access
+  links:
+  - https://data.gov.au/data/dataset/smart-grid-smart-city-customer-trial-data/resource/b71eb954-196a-4901-82fd-69b17f88521e
+  license: unknown
+  citation:
+    preferred_citation: ''
+    bibtex: null
+  source_paper:
+    in_baur_2024: false
+    baur_2024_usage_count: null
+- dataset_id: uk-grid
+  name: Electricity consumption UK 2009-2024
+  abbreviation: UK-GRID
+  type: file_archive
+  domain: system
+  domain_raw: S
+  resolution_minutes: 30
+  resolution_raw: '30'
+  features:
+  - load
+  features_raw: E
+  time_coverage:
+    start_date: 2009-01
+    end_date: 2024-12
+  time_coverage_raw: 2009-2024
+  duration_months: 180
+  duration_raw: '180'
+  horizons:
+  - st
+  - mt
+  - lt
+  regions_multiple: false
+  regions_raw: ❌
+  access:
+    url: https://www.kaggle.com/datasets/albertovidalrod/electricity-consumption-uk-20092022
+    access_notes: Open access
+  links:
+  - https://www.kaggle.com/datasets/albertovidalrod/electricity-consumption-uk-20092022
+  license: unknown
+  citation:
+    preferred_citation: ''
+    bibtex: null
+  source_paper:
+    in_baur_2024: false
+    baur_2024_usage_count: null
+- dataset_id: houstonres
+  name: Houston Residential power usage (one house)
+  abbreviation: HoustonRes
+  type: file_archive
+  domain: residential
+  domain_raw: R
+  resolution_minutes: 60
+  resolution_raw: '60'
+  features:
+  - load
+  - weather
+  features_raw: E, W
+  time_coverage:
+    start_date: 2016-01
+    end_date: 2020-12
+  time_coverage_raw: 2016-2020
+  duration_months: 49
+  duration_raw: '49'
+  horizons:
+  - st
+  - mt
+  regions_multiple: false
+  regions_raw: ❌
+  access:
+    url: https://www.kaggle.com/datasets/srinuti/residential-power-usage-3years-data-timeseries
+    access_notes: Open access
+  links:
+  - https://www.kaggle.com/datasets/srinuti/residential-power-usage-3years-data-timeseries
+  license: unknown
+  citation:
+    preferred_citation: ''
+    bibtex: null
+  source_paper:
+    in_baur_2024: false
+    baur_2024_usage_count: null
+- dataset_id: cu-bems-bangkok
+  name: Bangkok CU-BEMS, smart building energy and IAQ data
+  abbreviation: CU-BEMS-Bangkok
+  type: file_archive
+  domain: residential
+  domain_raw: R
+  resolution_minutes: 1
+  resolution_raw: '1'
+  features:
+  - load
+  - weather
+  features_raw: E, W
+  time_coverage:
+    start_date: 2018-01
+    end_date: 2019-12
+  time_coverage_raw: 2018-2019
+  duration_months: 18
+  duration_raw: '18'
+  horizons:
+  - vst
+  - st
+  - mt
+  regions_multiple: false
+  regions_raw: ❌
+  access:
+    url: https://www.kaggle.com/datasets/claytonmiller/cubems-smart-building-energy-and-iaq-data
+    access_notes: Open access
+  links:
+  - https://www.kaggle.com/datasets/claytonmiller/cubems-smart-building-energy-and-iaq-data
+  license: unknown
+  citation:
+    preferred_citation: ''
+    bibtex: null
+  source_paper:
+    in_baur_2024: false
+    baur_2024_usage_count: null
+- dataset_id: 5359_vea_loadd
+  name: 5359 industrial VEA load profiles
+  abbreviation: 5359 VEA loadd
+  type: file_archive
+  domain: industrial
+  domain_raw: I
+  resolution_minutes: 15
+  resolution_raw: '15'
+  features:
+  - load
+  features_raw: E
+  time_coverage:
+    start_date: 2016-01
+    end_date: 2016-12
+  time_coverage_raw: '2016'
+  duration_months: 12
+  duration_raw: '12'
+  horizons:
+  - vst
+  - st
+  regions_multiple: true
+  regions_raw: ✔️(5359)
+  access:
+    url: https://zenodo.org/records/13910298
+    access_notes: Open access
+  links:
+  - https://zenodo.org/records/13910298
+  license: unknown
+  citation:
+    preferred_citation: ''
+    bibtex: null
+  source_paper:
+    in_baur_2024: false
+    baur_2024_usage_count: null
+- dataset_id: rte-france
+  name: RTE France
+  abbreviation: RTE-France
+  type: platform_api
+  domain: system
+  domain_raw: S
+  resolution_minutes: 30
+  resolution_raw: '30'
+  features:
+  - load
+  features_raw: E
+  time_coverage:
+    start_date: 2012-01
+    end_date: 2020-12
+  time_coverage_raw: 2012-2020
+  duration_months: 12
+  duration_raw: '12'
+  horizons:
+  - st
+  regions_multiple: true
+  regions_raw: ✔️
+  access:
+    url: https://www.rte-france.com/en/eco2mix/download-indicators
+    access_notes: Open access
+  links:
+  - https://www.rte-france.com/en/eco2mix/download-indicators
+  license: CC BY 4.0
+  citation:
+    preferred_citation: 'Baur, L.; Chandramouli, V.; Sauer, A.: Publicly Available
+      Datasets For Electric Load Forecasting – An Overview. In: Herberger, D.; Hübner,
+      M. (Eds.): Proceedings of the CPSL 2024. Hannover : publish-Ing., 2024, S. 1–12.
+      DOI: https://doi.org/10.15488/17659'
+    bibtex: "@inproceedings{baur2024datasets,\n  author    = {Baur, Lukas and Chandramouli,\
+      \ Vignesh and Sauer, Alexander},\n  title     = {Publicly Available Datasets\
+      \ For Electric Load Forecasting – An Overview},\n  booktitle = {Proceedings\
+      \ of the CPSL 2024},\n  editor    = {Herberger, D. and Hübner, M.},\n  location\
+      \  = {Hannover},\n  publisher = {publish-Ing.},\n  year      = {2024},\n  pages\
+      \     = {1--12},\n  doi       = {10.15488/17659}\n}\n"
+  source_paper:
+    in_baur_2024: true
+    baur_2024_usage_count: null
+- dataset_id: aemo
+  name: Australian Energy market operator
+  abbreviation: AEMO
+  type: platform_api
+  domain: unknown
+  domain_raw: H
+  resolution_minutes: 60
+  resolution_raw: '60'
+  features:
+  - load
+  features_raw: E
+  time_coverage:
+    start_date: 2013-01
+    end_date: 2013-12
+  time_coverage_raw: '2013'
+  duration_months: 12
+  duration_raw: '12'
+  horizons:
+  - st
+  regions_multiple: true
+  regions_raw: ✔️
+  access:
+    url: https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/data-nem/network-data
+    access_notes: Open access
+  links:
+  - https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/data-nem/network-data
+  license: CC BY 4.0
+  citation:
+    preferred_citation: 'Baur, L.; Chandramouli, V.; Sauer, A.: Publicly Available
+      Datasets For Electric Load Forecasting – An Overview. In: Herberger, D.; Hübner,
+      M. (Eds.): Proceedings of the CPSL 2024. Hannover : publish-Ing., 2024, S. 1–12.
+      DOI: https://doi.org/10.15488/17659'
+    bibtex: "@inproceedings{baur2024datasets,\n  author    = {Baur, Lukas and Chandramouli,\
+      \ Vignesh and Sauer, Alexander},\n  title     = {Publicly Available Datasets\
+      \ For Electric Load Forecasting – An Overview},\n  booktitle = {Proceedings\
+      \ of the CPSL 2024},\n  editor    = {Herberger, D. and Hübner, M.},\n  location\
+      \  = {Hannover},\n  publisher = {publish-Ing.},\n  year      = {2024},\n  pages\
+      \     = {1--12},\n  doi       = {10.15488/17659}\n}\n"
+  source_paper:
+    in_baur_2024: true
+    baur_2024_usage_count: null
+- dataset_id: ieso-o
+  name: IESO Ontario
+  abbreviation: IESO-O
+  type: platform_api
+  domain: unknown
+  domain_raw: H
+  resolution_minutes: 60
+  resolution_raw: '60'
+  features:
+  - load
+  - price
+  features_raw: E, P
+  time_coverage:
+    start_date: 2022-01
+    end_date: 2023-12
+  time_coverage_raw: 2022-2023
+  duration_months: null
+  duration_raw: 20+
+  horizons:
+  - st
+  - mt
+  regions_multiple: false
+  regions_raw: ❌
+  access:
+    url: https://www.ieso.ca/en/Power-Data/Data-Directory
+    access_notes: Open access
+  links:
+  - https://www.ieso.ca/en/Power-Data/Data-Directory
+  license: CC BY 4.0
+  citation:
+    preferred_citation: 'Baur, L.; Chandramouli, V.; Sauer, A.: Publicly Available
+      Datasets For Electric Load Forecasting – An Overview. In: Herberger, D.; Hübner,
+      M. (Eds.): Proceedings of the CPSL 2024. Hannover : publish-Ing., 2024, S. 1–12.
+      DOI: https://doi.org/10.15488/17659'
+    bibtex: "@inproceedings{baur2024datasets,\n  author    = {Baur, Lukas and Chandramouli,\
+      \ Vignesh and Sauer, Alexander},\n  title     = {Publicly Available Datasets\
+      \ For Electric Load Forecasting – An Overview},\n  booktitle = {Proceedings\
+      \ of the CPSL 2024},\n  editor    = {Herberger, D. and Hübner, M.},\n  location\
+      \  = {Hannover},\n  publisher = {publish-Ing.},\n  year      = {2024},\n  pages\
+      \     = {1--12},\n  doi       = {10.15488/17659}\n}\n"
+  source_paper:
+    in_baur_2024: true
+    baur_2024_usage_count: null
+- dataset_id: aeso
+  name: Alberta Electric Sys. Op. Electrical Load Dataset
+  abbreviation: AESO
+  type: platform_api
+  domain: system
+  domain_raw: S
+  resolution_minutes: 60
+  resolution_raw: '60'
+  features:
+  - load
+  features_raw: E
+  time_coverage:
+    start_date: 2005-01
+    end_date: 2016-12
+  time_coverage_raw: 2005-2016
+  duration_months: 132
+  duration_raw: '132'
+  horizons:
+  - st
+  - mt
+  - lt
+  regions_multiple: false
+  regions_raw: ❌
+  access:
+    url: https://www.aeso.ca/market/market-and-system-reporting/data-requests/
+    access_notes: Open access
+  links:
+  - https://www.aeso.ca/market/market-and-system-reporting/data-requests/
+  license: CC BY 4.0
+  citation:
+    preferred_citation: 'Baur, L.; Chandramouli, V.; Sauer, A.: Publicly Available
+      Datasets For Electric Load Forecasting – An Overview. In: Herberger, D.; Hübner,
+      M. (Eds.): Proceedings of the CPSL 2024. Hannover : publish-Ing., 2024, S. 1–12.
+      DOI: https://doi.org/10.15488/17659'
+    bibtex: "@inproceedings{baur2024datasets,\n  author    = {Baur, Lukas and Chandramouli,\
+      \ Vignesh and Sauer, Alexander},\n  title     = {Publicly Available Datasets\
+      \ For Electric Load Forecasting – An Overview},\n  booktitle = {Proceedings\
+      \ of the CPSL 2024},\n  editor    = {Herberger, D. and Hübner, M.},\n  location\
+      \  = {Hannover},\n  publisher = {publish-Ing.},\n  year      = {2024},\n  pages\
+      \     = {1--12},\n  doi       = {10.15488/17659}\n}\n"
+  source_paper:
+    in_baur_2024: true
+    baur_2024_usage_count: null
+- dataset_id: pps
+  name: Polish power system
+  abbreviation: PPS
+  type: platform_api
+  domain: system
+  domain_raw: S
+  resolution_minutes: null
+  resolution_raw: 15-60
+  features:
+  - load
+  features_raw: E
+  time_coverage:
+    start_date: 2013-01
+    end_date: null
+  time_coverage_raw: 2013- now
+  duration_months: null
+  duration_raw: 120+
+  horizons:
+  - vst
+  - st
+  - mt
+  - lt
+  regions_multiple: false
+  regions_raw: ❌
+  access:
+    url: https://www.pse.pl/web/pse-eng/data/polish-power-system-operation/load-of-polish-power-system
+    access_notes: Open access
+  links:
+  - https://www.pse.pl/web/pse-eng/data/polish-power-system-operation/load-of-polish-power-system
+  license: CC BY 4.0
+  citation:
+    preferred_citation: 'Baur, L.; Chandramouli, V.; Sauer, A.: Publicly Available
+      Datasets For Electric Load Forecasting – An Overview. In: Herberger, D.; Hübner,
+      M. (Eds.): Proceedings of the CPSL 2024. Hannover : publish-Ing., 2024, S. 1–12.
+      DOI: https://doi.org/10.15488/17659'
+    bibtex: "@inproceedings{baur2024datasets,\n  author    = {Baur, Lukas and Chandramouli,\
+      \ Vignesh and Sauer, Alexander},\n  title     = {Publicly Available Datasets\
+      \ For Electric Load Forecasting – An Overview},\n  booktitle = {Proceedings\
+      \ of the CPSL 2024},\n  editor    = {Herberger, D. and Hübner, M.},\n  location\
+      \  = {Hannover},\n  publisher = {publish-Ing.},\n  year      = {2024},\n  pages\
+      \     = {1--12},\n  doi       = {10.15488/17659}\n}\n"
+  source_paper:
+    in_baur_2024: true
+    baur_2024_usage_count: null
+- dataset_id: ausgrid
+  name: 'Ausgrid: Distribution zone substation'
+  abbreviation: AUSGRID
+  type: platform_api
+  domain: system
+  domain_raw: S
+  resolution_minutes: 15
+  resolution_raw: '15'
+  features:
+  - load
+  features_raw: E
+  time_coverage:
+    start_date: 2005-01
+    end_date: 2022-12
+  time_coverage_raw: 2005-2022
+  duration_months: 204
+  duration_raw: '204'
+  horizons:
+  - vst
+  - st
+  - mt
+  - lt
+  regions_multiple: true
+  regions_raw: ✔️(>100)
+  access:
+    url: https://www.ausgrid.com.au/Industry/Our-Research/Data-to-share/Distribution-zone-substation-data
+    access_notes: Open access
+  links:
+  - https://www.ausgrid.com.au/Industry/Our-Research/Data-to-share/Distribution-zone-substation-data
+  license: CC BY 4.0
+  citation:
+    preferred_citation: 'Baur, L.; Chandramouli, V.; Sauer, A.: Publicly Available
+      Datasets For Electric Load Forecasting – An Overview. In: Herberger, D.; Hübner,
+      M. (Eds.): Proceedings of the CPSL 2024. Hannover : publish-Ing., 2024, S. 1–12.
+      DOI: https://doi.org/10.15488/17659'
+    bibtex: "@inproceedings{baur2024datasets,\n  author    = {Baur, Lukas and Chandramouli,\
+      \ Vignesh and Sauer, Alexander},\n  title     = {Publicly Available Datasets\
+      \ For Electric Load Forecasting – An Overview},\n  booktitle = {Proceedings\
+      \ of the CPSL 2024},\n  editor    = {Herberger, D. and Hübner, M.},\n  location\
+      \  = {Hannover},\n  publisher = {publish-Ing.},\n  year      = {2024},\n  pages\
+      \     = {1--12},\n  doi       = {10.15488/17659}\n}\n"
+  source_paper:
+    in_baur_2024: true
+    baur_2024_usage_count: null
+- dataset_id: kpx
+  name: KPX  Korea
+  abbreviation: KPX
+  type: platform_api
+  domain: unknown
+  domain_raw: H
+  resolution_minutes: 5
+  resolution_raw: '5'
+  features:
+  - load
+  features_raw: E
+  time_coverage:
+    start_date: 2003-01
+    end_date: null
+  time_coverage_raw: 2003-now
+  duration_months: 240
+  duration_raw: '240'
+  horizons:
+  - vst
+  - st
+  - mt
+  - lt
+  regions_multiple: false
+  regions_raw: ❌
+  access:
+    url: https://epsis.kpx.or.kr/epsisnew/selectEkgeEpsMepRealChart.do?menuId=030300
+    access_notes: Open access
+  links:
+  - https://epsis.kpx.or.kr/epsisnew/selectEkgeEpsMepRealChart.do?menuId=030300
+  license: CC BY 4.0
+  citation:
+    preferred_citation: 'Baur, L.; Chandramouli, V.; Sauer, A.: Publicly Available
+      Datasets For Electric Load Forecasting – An Overview. In: Herberger, D.; Hübner,
+      M. (Eds.): Proceedings of the CPSL 2024. Hannover : publish-Ing., 2024, S. 1–12.
+      DOI: https://doi.org/10.15488/17659'
+    bibtex: "@inproceedings{baur2024datasets,\n  author    = {Baur, Lukas and Chandramouli,\
+      \ Vignesh and Sauer, Alexander},\n  title     = {Publicly Available Datasets\
+      \ For Electric Load Forecasting – An Overview},\n  booktitle = {Proceedings\
+      \ of the CPSL 2024},\n  editor    = {Herberger, D. and Hübner, M.},\n  location\
+      \  = {Hannover},\n  publisher = {publish-Ing.},\n  year      = {2024},\n  pages\
+      \     = {1--12},\n  doi       = {10.15488/17659}\n}\n"
+  source_paper:
+    in_baur_2024: true
+    baur_2024_usage_count: null
+- dataset_id: admie
+  name: Independent Electricity Transmission Operator
+  abbreviation: ADMIE
+  type: platform_api
+  domain: system
+  domain_raw: S
+  resolution_minutes: 60
+  resolution_raw: '60'
+  features:
+  - load
+  features_raw: E
+  time_coverage:
+    start_date: 2011-01
+    end_date: null
+  time_coverage_raw: 2011-now
+  duration_months: null
+  duration_raw: 120+
+  horizons:
+  - st
+  - mt
+  - lt
+  regions_multiple: true
+  regions_raw: ✔️
+  access:
+    url: https://www.admie.gr/en/market/market-statistics/detail-data
+    access_notes: Open access
+  links:
+  - https://www.admie.gr/en/market/market-statistics/detail-data
+  license: CC BY 4.0
+  citation:
+    preferred_citation: 'Baur, L.; Chandramouli, V.; Sauer, A.: Publicly Available
+      Datasets For Electric Load Forecasting – An Overview. In: Herberger, D.; Hübner,
+      M. (Eds.): Proceedings of the CPSL 2024. Hannover : publish-Ing., 2024, S. 1–12.
+      DOI: https://doi.org/10.15488/17659'
+    bibtex: "@inproceedings{baur2024datasets,\n  author    = {Baur, Lukas and Chandramouli,\
+      \ Vignesh and Sauer, Alexander},\n  title     = {Publicly Available Datasets\
+      \ For Electric Load Forecasting – An Overview},\n  booktitle = {Proceedings\
+      \ of the CPSL 2024},\n  editor    = {Herberger, D. and Hübner, M.},\n  location\
+      \  = {Hannover},\n  publisher = {publish-Ing.},\n  year      = {2024},\n  pages\
+      \     = {1--12},\n  doi       = {10.15488/17659}\n}\n"
+  source_paper:
+    in_baur_2024: true
+    baur_2024_usage_count: null
+- dataset_id: pecan
+  name: Pecan Street dataset
+  abbreviation: Pecan
+  type: platform_api
+  domain: system
+  domain_raw: S
+  resolution_minutes: 15
+  resolution_raw: '15'
+  features:
+  - load
+  - weather
+  features_raw: E, W
+  time_coverage:
+    start_date: 2017-01
+    end_date: 2018-12
+  time_coverage_raw: 2017-2018
+  duration_months: 24
+  duration_raw: '24'
+  horizons:
+  - vst
+  - st
+  - mt
+  regions_multiple: true
+  regions_raw: ✔️
+  access:
+    url: https://dataport.pecanstreet.org/
+    access_notes: Open access
+  links:
+  - https://dataport.pecanstreet.org/
+  license: CC BY 4.0
+  citation:
+    preferred_citation: 'Baur, L.; Chandramouli, V.; Sauer, A.: Publicly Available
+      Datasets For Electric Load Forecasting – An Overview. In: Herberger, D.; Hübner,
+      M. (Eds.): Proceedings of the CPSL 2024. Hannover : publish-Ing., 2024, S. 1–12.
+      DOI: https://doi.org/10.15488/17659'
+    bibtex: "@inproceedings{baur2024datasets,\n  author    = {Baur, Lukas and Chandramouli,\
+      \ Vignesh and Sauer, Alexander},\n  title     = {Publicly Available Datasets\
+      \ For Electric Load Forecasting – An Overview},\n  booktitle = {Proceedings\
+      \ of the CPSL 2024},\n  editor    = {Herberger, D. and Hübner, M.},\n  location\
+      \  = {Hannover},\n  publisher = {publish-Ing.},\n  year      = {2024},\n  pages\
+      \     = {1--12},\n  doi       = {10.15488/17659}\n}\n"
+  source_paper:
+    in_baur_2024: true
+    baur_2024_usage_count: null
+- dataset_id: cal-iso
+  name: California ISO Hourly Load Data
+  abbreviation: Cal-ISO
+  type: platform_api
+  domain: system
+  domain_raw: S
+  resolution_minutes: 60
+  resolution_raw: '60'
+  features:
+  - load
+  features_raw: E
+  time_coverage:
+    start_date: 2014-01
+    end_date: null
+  time_coverage_raw: 2014-now
+  duration_months: null
+  duration_raw: 100+
+  horizons:
+  - st
+  - mt
+  - lt
+  regions_multiple: true
+  regions_raw: ✔️
+  access:
+    url: https://www.caiso.com/generation-transmission/resource-adequacy#Historical
+    access_notes: 2 links available, see links field
+  links:
+  - https://www.caiso.com/generation-transmission/resource-adequacy#Historical
+  - https://bigdata.seas.gwu.edu/data-set-15-california-iso-load-data-set/
+  license: CC BY 4.0
+  citation:
+    preferred_citation: 'Baur, L.; Chandramouli, V.; Sauer, A.: Publicly Available
+      Datasets For Electric Load Forecasting – An Overview. In: Herberger, D.; Hübner,
+      M. (Eds.): Proceedings of the CPSL 2024. Hannover : publish-Ing., 2024, S. 1–12.
+      DOI: https://doi.org/10.15488/17659'
+    bibtex: "@inproceedings{baur2024datasets,\n  author    = {Baur, Lukas and Chandramouli,\
+      \ Vignesh and Sauer, Alexander},\n  title     = {Publicly Available Datasets\
+      \ For Electric Load Forecasting – An Overview},\n  booktitle = {Proceedings\
+      \ of the CPSL 2024},\n  editor    = {Herberger, D. and Hübner, M.},\n  location\
+      \  = {Hannover},\n  publisher = {publish-Ing.},\n  year      = {2024},\n  pages\
+      \     = {1--12},\n  doi       = {10.15488/17659}\n}\n"
+  source_paper:
+    in_baur_2024: false
+    baur_2024_usage_count: null

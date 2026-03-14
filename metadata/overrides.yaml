@@ -1,3 +1,501 @@
-# Optional overrides for fields that cannot be reliably derived from README.md
-# Keyed by dataset_id
-{}
+iso-ne:
+  license: "CC BY 4.0"
+  citation:
+    preferred_citation: "Baur, L.; Chandramouli, V.; Sauer, A.: Publicly Available Datasets For Electric Load Forecasting – An Overview. In: Herberger, D.; Hübner, M. (Eds.): Proceedings of the CPSL 2024. Hannover : publish-Ing., 2024, S. 1–12. DOI: https://doi.org/10.15488/17659"
+    bibtex: |
+      @inproceedings{baur2024datasets,
+        author    = {Baur, Lukas and Chandramouli, Vignesh and Sauer, Alexander},
+        title     = {Publicly Available Datasets For Electric Load Forecasting – An Overview},
+        booktitle = {Proceedings of the CPSL 2024},
+        editor    = {Herberger, D. and Hübner, M.},
+        location  = {Hannover},
+        publisher = {publish-Ing.},
+        year      = {2024},
+        pages     = {1--12},
+        doi       = {10.15488/17659}
+      }
+nyiso:
+  license: "CC BY 4.0"
+  citation:
+    preferred_citation: "Baur, L.; Chandramouli, V.; Sauer, A.: Publicly Available Datasets For Electric Load Forecasting – An Overview. In: Herberger, D.; Hübner, M. (Eds.): Proceedings of the CPSL 2024. Hannover : publish-Ing., 2024, S. 1–12. DOI: https://doi.org/10.15488/17659"
+    bibtex: |
+      @inproceedings{baur2024datasets,
+        author    = {Baur, Lukas and Chandramouli, Vignesh and Sauer, Alexander},
+        title     = {Publicly Available Datasets For Electric Load Forecasting – An Overview},
+        booktitle = {Proceedings of the CPSL 2024},
+        editor    = {Herberger, D. and Hübner, M.},
+        location  = {Hannover},
+        publisher = {publish-Ing.},
+        year      = {2024},
+        pages     = {1--12},
+        doi       = {10.15488/17659}
+      }
+pjm:
+  license: "CC BY 4.0"
+  citation:
+    preferred_citation: "Baur, L.; Chandramouli, V.; Sauer, A.: Publicly Available Datasets For Electric Load Forecasting – An Overview. In: Herberger, D.; Hübner, M. (Eds.): Proceedings of the CPSL 2024. Hannover : publish-Ing., 2024, S. 1–12. DOI: https://doi.org/10.15488/17659"
+    bibtex: |
+      @inproceedings{baur2024datasets,
+        author    = {Baur, Lukas and Chandramouli, Vignesh and Sauer, Alexander},
+        title     = {Publicly Available Datasets For Electric Load Forecasting – An Overview},
+        booktitle = {Proceedings of the CPSL 2024},
+        editor    = {Herberger, D. and Hübner, M.},
+        location  = {Hannover},
+        publisher = {publish-Ing.},
+        year      = {2024},
+        pages     = {1--12},
+        doi       = {10.15488/17659}
+      }
+cif:
+  license: "CC BY 4.0"
+  citation:
+    preferred_citation: "Baur, L.; Chandramouli, V.; Sauer, A.: Publicly Available Datasets For Electric Load Forecasting – An Overview. In: Herberger, D.; Hübner, M. (Eds.): Proceedings of the CPSL 2024. Hannover : publish-Ing., 2024, S. 1–12. DOI: https://doi.org/10.15488/17659"
+    bibtex: |
+      @inproceedings{baur2024datasets,
+        author    = {Baur, Lukas and Chandramouli, Vignesh and Sauer, Alexander},
+        title     = {Publicly Available Datasets For Electric Load Forecasting – An Overview},
+        booktitle = {Proceedings of the CPSL 2024},
+        editor    = {Herberger, D. and Hübner, M.},
+        location  = {Hannover},
+        publisher = {publish-Ing.},
+        year      = {2024},
+        pages     = {1--12},
+        doi       = {10.15488/17659}
+      }
+gefcom14:
+  license: "CC BY 4.0"
+  citation:
+    preferred_citation: "Baur, L.; Chandramouli, V.; Sauer, A.: Publicly Available Datasets For Electric Load Forecasting – An Overview. In: Herberger, D.; Hübner, M. (Eds.): Proceedings of the CPSL 2024. Hannover : publish-Ing., 2024, S. 1–12. DOI: https://doi.org/10.15488/17659"
+    bibtex: |
+      @inproceedings{baur2024datasets,
+        author    = {Baur, Lukas and Chandramouli, Vignesh and Sauer, Alexander},
+        title     = {Publicly Available Datasets For Electric Load Forecasting – An Overview},
+        booktitle = {Proceedings of the CPSL 2024},
+        editor    = {Herberger, D. and Hübner, M.},
+        location  = {Hannover},
+        publisher = {publish-Ing.},
+        year      = {2024},
+        pages     = {1--12},
+        doi       = {10.15488/17659}
+      }
+eunite:
+  license: "CC BY 4.0"
+  citation:
+    preferred_citation: "Baur, L.; Chandramouli, V.; Sauer, A.: Publicly Available Datasets For Electric Load Forecasting – An Overview. In: Herberger, D.; Hübner, M. (Eds.): Proceedings of the CPSL 2024. Hannover : publish-Ing., 2024, S. 1–12. DOI: https://doi.org/10.15488/17659"
+    bibtex: |
+      @inproceedings{baur2024datasets,
+        author    = {Baur, Lukas and Chandramouli, Vignesh and Sauer, Alexander},
+        title     = {Publicly Available Datasets For Electric Load Forecasting – An Overview},
+        booktitle = {Proceedings of the CPSL 2024},
+        editor    = {Herberger, D. and Hübner, M.},
+        location  = {Hannover},
+        publisher = {publish-Ing.},
+        year      = {2024},
+        pages     = {1--12},
+        doi       = {10.15488/17659}
+      }
+entso-e:
+  license: "CC BY 4.0"
+  citation:
+    preferred_citation: "Baur, L.; Chandramouli, V.; Sauer, A.: Publicly Available Datasets For Electric Load Forecasting – An Overview. In: Herberger, D.; Hübner, M. (Eds.): Proceedings of the CPSL 2024. Hannover : publish-Ing., 2024, S. 1–12. DOI: https://doi.org/10.15488/17659"
+    bibtex: |
+      @inproceedings{baur2024datasets,
+        author    = {Baur, Lukas and Chandramouli, Vignesh and Sauer, Alexander},
+        title     = {Publicly Available Datasets For Electric Load Forecasting – An Overview},
+        booktitle = {Proceedings of the CPSL 2024},
+        editor    = {Herberger, D. and Hübner, M.},
+        location  = {Hannover},
+        publisher = {publish-Ing.},
+        year      = {2024},
+        pages     = {1--12},
+        doi       = {10.15488/17659}
+      }
+eweld:
+  license: null
+  citation:
+    preferred_citation: ""
+    bibtex: null
+wpuq:
+  license: null
+  citation:
+    preferred_citation: ""
+    bibtex: null
+panetesa:
+  license: null
+  citation:
+    preferred_citation: ""
+    bibtex: null
+refit:
+  license: null
+  citation:
+    preferred_citation: ""
+    bibtex: null
+ecd-uy:
+  license: null
+  citation:
+    preferred_citation: ""
+    bibtex: null
+ideal:
+  license: null
+  citation:
+    preferred_citation: ""
+    bibtex: null
+hanoi-res:
+  license: null
+  citation:
+    preferred_citation: ""
+    bibtex: null
+uk-dale:
+  license: null
+  citation:
+    preferred_citation: ""
+    bibtex: null
+lcl:
+  license: "CC BY 4.0"
+  citation:
+    preferred_citation: "Baur, L.; Chandramouli, V.; Sauer, A.: Publicly Available Datasets For Electric Load Forecasting – An Overview. In: Herberger, D.; Hübner, M. (Eds.): Proceedings of the CPSL 2024. Hannover : publish-Ing., 2024, S. 1–12. DOI: https://doi.org/10.15488/17659"
+    bibtex: |
+      @inproceedings{baur2024datasets,
+        author    = {Baur, Lukas and Chandramouli, Vignesh and Sauer, Alexander},
+        title     = {Publicly Available Datasets For Electric Load Forecasting – An Overview},
+        booktitle = {Proceedings of the CPSL 2024},
+        editor    = {Herberger, D. and Hübner, M.},
+        location  = {Hannover},
+        publisher = {publish-Ing.},
+        year      = {2024},
+        pages     = {1--12},
+        doi       = {10.15488/17659}
+      }
+set:
+  license: "CC BY 4.0"
+  citation:
+    preferred_citation: "Baur, L.; Chandramouli, V.; Sauer, A.: Publicly Available Datasets For Electric Load Forecasting – An Overview. In: Herberger, D.; Hübner, M. (Eds.): Proceedings of the CPSL 2024. Hannover : publish-Ing., 2024, S. 1–12. DOI: https://doi.org/10.15488/17659"
+    bibtex: |
+      @inproceedings{baur2024datasets,
+        author    = {Baur, Lukas and Chandramouli, Vignesh and Sauer, Alexander},
+        title     = {Publicly Available Datasets For Electric Load Forecasting – An Overview},
+        booktitle = {Proceedings of the CPSL 2024},
+        editor    = {Herberger, D. and Hübner, M.},
+        location  = {Hannover},
+        publisher = {publish-Ing.},
+        year      = {2024},
+        pages     = {1--12},
+        doi       = {10.15488/17659}
+      }
+bdg-proj:
+  license: "CC BY 4.0"
+  citation:
+    preferred_citation: "Baur, L.; Chandramouli, V.; Sauer, A.: Publicly Available Datasets For Electric Load Forecasting – An Overview. In: Herberger, D.; Hübner, M. (Eds.): Proceedings of the CPSL 2024. Hannover : publish-Ing., 2024, S. 1–12. DOI: https://doi.org/10.15488/17659"
+    bibtex: |
+      @inproceedings{baur2024datasets,
+        author    = {Baur, Lukas and Chandramouli, Vignesh and Sauer, Alexander},
+        title     = {Publicly Available Datasets For Electric Load Forecasting – An Overview},
+        booktitle = {Proceedings of the CPSL 2024},
+        editor    = {Herberger, D. and Hübner, M.},
+        location  = {Hannover},
+        publisher = {publish-Ing.},
+        year      = {2024},
+        pages     = {1--12},
+        doi       = {10.15488/17659}
+      }
+bdg-proj2:
+  license: null
+  citation:
+    preferred_citation: ""
+    bibtex: null
+ihpc:
+  license: "CC BY 4.0"
+  citation:
+    preferred_citation: "Baur, L.; Chandramouli, V.; Sauer, A.: Publicly Available Datasets For Electric Load Forecasting – An Overview. In: Herberger, D.; Hübner, M. (Eds.): Proceedings of the CPSL 2024. Hannover : publish-Ing., 2024, S. 1–12. DOI: https://doi.org/10.15488/17659"
+    bibtex: |
+      @inproceedings{baur2024datasets,
+        author    = {Baur, Lukas and Chandramouli, Vignesh and Sauer, Alexander},
+        title     = {Publicly Available Datasets For Electric Load Forecasting – An Overview},
+        booktitle = {Proceedings of the CPSL 2024},
+        editor    = {Herberger, D. and Hübner, M.},
+        location  = {Hannover},
+        publisher = {publish-Ing.},
+        year      = {2024},
+        pages     = {1--12},
+        doi       = {10.15488/17659}
+      }
+gefcom12:
+  license: "CC BY 4.0"
+  citation:
+    preferred_citation: "Baur, L.; Chandramouli, V.; Sauer, A.: Publicly Available Datasets For Electric Load Forecasting – An Overview. In: Herberger, D.; Hübner, M. (Eds.): Proceedings of the CPSL 2024. Hannover : publish-Ing., 2024, S. 1–12. DOI: https://doi.org/10.15488/17659"
+    bibtex: |
+      @inproceedings{baur2024datasets,
+        author    = {Baur, Lukas and Chandramouli, Vignesh and Sauer, Alexander},
+        title     = {Publicly Available Datasets For Electric Load Forecasting – An Overview},
+        booktitle = {Proceedings of the CPSL 2024},
+        editor    = {Herberger, D. and Hübner, M.},
+        location  = {Hannover},
+        publisher = {publish-Ing.},
+        year      = {2024},
+        pages     = {1--12},
+        doi       = {10.15488/17659}
+      }
+opsd-ts:
+  license: "CC BY 4.0"
+  citation:
+    preferred_citation: "Baur, L.; Chandramouli, V.; Sauer, A.: Publicly Available Datasets For Electric Load Forecasting – An Overview. In: Herberger, D.; Hübner, M. (Eds.): Proceedings of the CPSL 2024. Hannover : publish-Ing., 2024, S. 1–12. DOI: https://doi.org/10.15488/17659"
+    bibtex: |
+      @inproceedings{baur2024datasets,
+        author    = {Baur, Lukas and Chandramouli, Vignesh and Sauer, Alexander},
+        title     = {Publicly Available Datasets For Electric Load Forecasting – An Overview},
+        booktitle = {Proceedings of the CPSL 2024},
+        editor    = {Herberger, D. and Hübner, M.},
+        location  = {Hannover},
+        publisher = {publish-Ing.},
+        year      = {2024},
+        pages     = {1--12},
+        doi       = {10.15488/17659}
+      }
+opsd-hh:
+  license: null
+  citation:
+    preferred_citation: ""
+    bibtex: null
+eld:
+  license: "CC BY 4.0"
+  citation:
+    preferred_citation: "Baur, L.; Chandramouli, V.; Sauer, A.: Publicly Available Datasets For Electric Load Forecasting – An Overview. In: Herberger, D.; Hübner, M. (Eds.): Proceedings of the CPSL 2024. Hannover : publish-Ing., 2024, S. 1–12. DOI: https://doi.org/10.15488/17659"
+    bibtex: |
+      @inproceedings{baur2024datasets,
+        author    = {Baur, Lukas and Chandramouli, Vignesh and Sauer, Alexander},
+        title     = {Publicly Available Datasets For Electric Load Forecasting – An Overview},
+        booktitle = {Proceedings of the CPSL 2024},
+        editor    = {Herberger, D. and Hübner, M.},
+        location  = {Hannover},
+        publisher = {publish-Ing.},
+        year      = {2024},
+        pages     = {1--12},
+        doi       = {10.15488/17659}
+      }
+enertalk:
+  license: "CC BY 4.0"
+  citation:
+    preferred_citation: "Baur, L.; Chandramouli, V.; Sauer, A.: Publicly Available Datasets For Electric Load Forecasting – An Overview. In: Herberger, D.; Hübner, M. (Eds.): Proceedings of the CPSL 2024. Hannover : publish-Ing., 2024, S. 1–12. DOI: https://doi.org/10.15488/17659"
+    bibtex: |
+      @inproceedings{baur2024datasets,
+        author    = {Baur, Lukas and Chandramouli, Vignesh and Sauer, Alexander},
+        title     = {Publicly Available Datasets For Electric Load Forecasting – An Overview},
+        booktitle = {Proceedings of the CPSL 2024},
+        editor    = {Herberger, D. and Hübner, M.},
+        location  = {Hannover},
+        publisher = {publish-Ing.},
+        year      = {2024},
+        pages     = {1--12},
+        doi       = {10.15488/17659}
+      }
+s-tso:
+  license: "CC BY 4.0"
+  citation:
+    preferred_citation: "Baur, L.; Chandramouli, V.; Sauer, A.: Publicly Available Datasets For Electric Load Forecasting – An Overview. In: Herberger, D.; Hübner, M. (Eds.): Proceedings of the CPSL 2024. Hannover : publish-Ing., 2024, S. 1–12. DOI: https://doi.org/10.15488/17659"
+    bibtex: |
+      @inproceedings{baur2024datasets,
+        author    = {Baur, Lukas and Chandramouli, Vignesh and Sauer, Alexander},
+        title     = {Publicly Available Datasets For Electric Load Forecasting – An Overview},
+        booktitle = {Proceedings of the CPSL 2024},
+        editor    = {Herberger, D. and Hübner, M.},
+        location  = {Hannover},
+        publisher = {publish-Ing.},
+        year      = {2024},
+        pages     = {1--12},
+        doi       = {10.15488/17659}
+      }
+cer:
+  license: null
+  citation:
+    preferred_citation: ""
+    bibtex: null
+deddiag:
+  license: null
+  citation:
+    preferred_citation: ""
+    bibtex: null
+aussmartgrid:
+  license: null
+  citation:
+    preferred_citation: ""
+    bibtex: null
+uk-grid:
+  license: null
+  citation:
+    preferred_citation: ""
+    bibtex: null
+houstonres:
+  license: null
+  citation:
+    preferred_citation: ""
+    bibtex: null
+cu-bems-bangkok:
+  license: null
+  citation:
+    preferred_citation: ""
+    bibtex: null
+5359_vea_loadd:
+  license: null
+  citation:
+    preferred_citation: ""
+    bibtex: null
+rte-france:
+  license: "CC BY 4.0"
+  citation:
+    preferred_citation: "Baur, L.; Chandramouli, V.; Sauer, A.: Publicly Available Datasets For Electric Load Forecasting – An Overview. In: Herberger, D.; Hübner, M. (Eds.): Proceedings of the CPSL 2024. Hannover : publish-Ing., 2024, S. 1–12. DOI: https://doi.org/10.15488/17659"
+    bibtex: |
+      @inproceedings{baur2024datasets,
+        author    = {Baur, Lukas and Chandramouli, Vignesh and Sauer, Alexander},
+        title     = {Publicly Available Datasets For Electric Load Forecasting – An Overview},
+        booktitle = {Proceedings of the CPSL 2024},
+        editor    = {Herberger, D. and Hübner, M.},
+        location  = {Hannover},
+        publisher = {publish-Ing.},
+        year      = {2024},
+        pages     = {1--12},
+        doi       = {10.15488/17659}
+      }
+aemo:
+  license: "CC BY 4.0"
+  citation:
+    preferred_citation: "Baur, L.; Chandramouli, V.; Sauer, A.: Publicly Available Datasets For Electric Load Forecasting – An Overview. In: Herberger, D.; Hübner, M. (Eds.): Proceedings of the CPSL 2024. Hannover : publish-Ing., 2024, S. 1–12. DOI: https://doi.org/10.15488/17659"
+    bibtex: |
+      @inproceedings{baur2024datasets,
+        author    = {Baur, Lukas and Chandramouli, Vignesh and Sauer, Alexander},
+        title     = {Publicly Available Datasets For Electric Load Forecasting – An Overview},
+        booktitle = {Proceedings of the CPSL 2024},
+        editor    = {Herberger, D. and Hübner, M.},
+        location  = {Hannover},
+        publisher = {publish-Ing.},
+        year      = {2024},
+        pages     = {1--12},
+        doi       = {10.15488/17659}
+      }
+ieso-o:
+  license: "CC BY 4.0"
+  citation:
+    preferred_citation: "Baur, L.; Chandramouli, V.; Sauer, A.: Publicly Available Datasets For Electric Load Forecasting – An Overview. In: Herberger, D.; Hübner, M. (Eds.): Proceedings of the CPSL 2024. Hannover : publish-Ing., 2024, S. 1–12. DOI: https://doi.org/10.15488/17659"
+    bibtex: |
+      @inproceedings{baur2024datasets,
+        author    = {Baur, Lukas and Chandramouli, Vignesh and Sauer, Alexander},
+        title     = {Publicly Available Datasets For Electric Load Forecasting – An Overview},
+        booktitle = {Proceedings of the CPSL 2024},
+        editor    = {Herberger, D. and Hübner, M.},
+        location  = {Hannover},
+        publisher = {publish-Ing.},
+        year      = {2024},
+        pages     = {1--12},
+        doi       = {10.15488/17659}
+      }
+aeso:
+  license: "CC BY 4.0"
+  citation:
+    preferred_citation: "Baur, L.; Chandramouli, V.; Sauer, A.: Publicly Available Datasets For Electric Load Forecasting – An Overview. In: Herberger, D.; Hübner, M. (Eds.): Proceedings of the CPSL 2024. Hannover : publish-Ing., 2024, S. 1–12. DOI: https://doi.org/10.15488/17659"
+    bibtex: |
+      @inproceedings{baur2024datasets,
+        author    = {Baur, Lukas and Chandramouli, Vignesh and Sauer, Alexander},
+        title     = {Publicly Available Datasets For Electric Load Forecasting – An Overview},
+        booktitle = {Proceedings of the CPSL 2024},
+        editor    = {Herberger, D. and Hübner, M.},
+        location  = {Hannover},
+        publisher = {publish-Ing.},
+        year      = {2024},
+        pages     = {1--12},
+        doi       = {10.15488/17659}
+      }
+pps:
+  license: "CC BY 4.0"
+  citation:
+    preferred_citation: "Baur, L.; Chandramouli, V.; Sauer, A.: Publicly Available Datasets For Electric Load Forecasting – An Overview. In: Herberger, D.; Hübner, M. (Eds.): Proceedings of the CPSL 2024. Hannover : publish-Ing., 2024, S. 1–12. DOI: https://doi.org/10.15488/17659"
+    bibtex: |
+      @inproceedings{baur2024datasets,
+        author    = {Baur, Lukas and Chandramouli, Vignesh and Sauer, Alexander},
+        title     = {Publicly Available Datasets For Electric Load Forecasting – An Overview},
+        booktitle = {Proceedings of the CPSL 2024},
+        editor    = {Herberger, D. and Hübner, M.},
+        location  = {Hannover},
+        publisher = {publish-Ing.},
+        year      = {2024},
+        pages     = {1--12},
+        doi       = {10.15488/17659}
+      }
+ausgrid:
+  license: "CC BY 4.0"
+  citation:
+    preferred_citation: "Baur, L.; Chandramouli, V.; Sauer, A.: Publicly Available Datasets For Electric Load Forecasting – An Overview. In: Herberger, D.; Hübner, M. (Eds.): Proceedings of the CPSL 2024. Hannover : publish-Ing., 2024, S. 1–12. DOI: https://doi.org/10.15488/17659"
+    bibtex: |
+      @inproceedings{baur2024datasets,
+        author    = {Baur, Lukas and Chandramouli, Vignesh and Sauer, Alexander},
+        title     = {Publicly Available Datasets For Electric Load Forecasting – An Overview},
+        booktitle = {Proceedings of the CPSL 2024},
+        editor    = {Herberger, D. and Hübner, M.},
+        location  = {Hannover},
+        publisher = {publish-Ing.},
+        year      = {2024},
+        pages     = {1--12},
+        doi       = {10.15488/17659}
+      }
+kpx:
+  license: "CC BY 4.0"
+  citation:
+    preferred_citation: "Baur, L.; Chandramouli, V.; Sauer, A.: Publicly Available Datasets For Electric Load Forecasting – An Overview. In: Herberger, D.; Hübner, M. (Eds.): Proceedings of the CPSL 2024. Hannover : publish-Ing., 2024, S. 1–12. DOI: https://doi.org/10.15488/17659"
+    bibtex: |
+      @inproceedings{baur2024datasets,
+        author    = {Baur, Lukas and Chandramouli, Vignesh and Sauer, Alexander},
+        title     = {Publicly Available Datasets For Electric Load Forecasting – An Overview},
+        booktitle = {Proceedings of the CPSL 2024},
+        editor    = {Herberger, D. and Hübner, M.},
+        location  = {Hannover},
+        publisher = {publish-Ing.},
+        year      = {2024},
+        pages     = {1--12},
+        doi       = {10.15488/17659}
+      }
+admie:
+  license: "CC BY 4.0"
+  citation:
+    preferred_citation: "Baur, L.; Chandramouli, V.; Sauer, A.: Publicly Available Datasets For Electric Load Forecasting – An Overview. In: Herberger, D.; Hübner, M. (Eds.): Proceedings of the CPSL 2024. Hannover : publish-Ing., 2024, S. 1–12. DOI: https://doi.org/10.15488/17659"
+    bibtex: |
+      @inproceedings{baur2024datasets,
+        author    = {Baur, Lukas and Chandramouli, Vignesh and Sauer, Alexander},
+        title     = {Publicly Available Datasets For Electric Load Forecasting – An Overview},
+        booktitle = {Proceedings of the CPSL 2024},
+        editor    = {Herberger, D. and Hübner, M.},
+        location  = {Hannover},
+        publisher = {publish-Ing.},
+        year      = {2024},
+        pages     = {1--12},
+        doi       = {10.15488/17659}
+      }
+pecan:
+  license: "CC BY 4.0"
+  citation:
+    preferred_citation: "Baur, L.; Chandramouli, V.; Sauer, A.: Publicly Available Datasets For Electric Load Forecasting – An Overview. In: Herberger, D.; Hübner, M. (Eds.): Proceedings of the CPSL 2024. Hannover : publish-Ing., 2024, S. 1–12. DOI: https://doi.org/10.15488/17659"
+    bibtex: |
+      @inproceedings{baur2024datasets,
+        author    = {Baur, Lukas and Chandramouli, Vignesh and Sauer, Alexander},
+        title     = {Publicly Available Datasets For Electric Load Forecasting – An Overview},
+        booktitle = {Proceedings of the CPSL 2024},
+        editor    = {Herberger, D. and Hübner, M.},
+        location  = {Hannover},
+        publisher = {publish-Ing.},
+        year      = {2024},
+        pages     = {1--12},
+        doi       = {10.15488/17659}
+      }
+cal-iso:
+  license: "CC BY 4.0"
+  citation:
+    preferred_citation: "Baur, L.; Chandramouli, V.; Sauer, A.: Publicly Available Datasets For Electric Load Forecasting – An Overview. In: Herberger, D.; Hübner, M. (Eds.): Proceedings of the CPSL 2024. Hannover : publish-Ing., 2024, S. 1–12. DOI: https://doi.org/10.15488/17659"
+    bibtex: |
+      @inproceedings{baur2024datasets,
+        author    = {Baur, Lukas and Chandramouli, Vignesh and Sauer, Alexander},
+        title     = {Publicly Available Datasets For Electric Load Forecasting – An Overview},
+        booktitle = {Proceedings of the CPSL 2024},
+        editor    = {Herberger, D. and Hübner, M.},
+        location  = {Hannover},
+        publisher = {publish-Ing.},
+        year      = {2024},
+        pages     = {1--12},
+        doi       = {10.15488/17659}
+      }

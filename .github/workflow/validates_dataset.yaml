@@ -41,5 +41,18 @@ jobs:
             exit 1
           fi
 
+      - name: Run merge_datasets.py
+        run: python scripts/merge_datasets.py
+
+      - name: Commit and push datasets_full.yaml if changed
+        run: |
+          if ! git diff --exit-code metadata/datasets_full.yaml; then
+            git config user.name "github-actions"
+            git config user.email "github-actions@github.com"
+            git add metadata/datasets_full.yaml
+            git commit -m "ci: update datasets_full.yaml [auto]"
+            git push
+          fi
+
       - name: Validate datasets.yaml with Pydantic
         run: python scripts/validate_datasets.py
