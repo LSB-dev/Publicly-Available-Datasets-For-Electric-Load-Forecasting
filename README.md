@@ -19,6 +19,8 @@ We are happy about any kind of cooperation, feedback or extension to make the li
 So feel free to expand the list and initiate a pull request.
 
 # The list
+![a logo banner](Images/logo_footer_repo.PNG)
+
 | ID  | Abbrev	| Name	                                        | Domain<sup>1</sup> | Resolution<sup>2</sup> | Features<sup>3</sup> | Duration<sup>4</sup> | Spanned years                | Horizons<sup>5</sup>  | Regions<sup>6</sup> | Type<sup>7</sup>|Links|Access<sup>8</sup>|
 | -- 	|--       |----------------------------------------------	|------	             | -----------            | -----------          | -----                | --------------------------------------  | -----------------------            | ------------- |----|--------|--------|
 |1	| ISO-NE	  |	New England Independent System Operator       |S      |60         	|E		|108    |2003-2014     |❌✔️✔️❌     |✔️|📦|[🔗Link](https://www.iso-ne.com/isoexpress/web/reports/pricing/-/tree/zone-info)|🔓|
@@ -122,3 +124,4 @@ BibTeX entry
 💡 We would also like to thank an **anonymous reviewer** who suggested publishing the datasets not only in the above-mentioned publication but also as a repository.
 
 👨‍🎓 We would like to thank K. Kunkel, whose master's thesis contributed greatly to the expansion of the initial dataset collection.
+
