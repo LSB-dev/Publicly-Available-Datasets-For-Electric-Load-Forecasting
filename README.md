@@ -13,12 +13,6 @@ So we came up with the idea of doing a proper search and making the results avai
 Based on a sample set of representative publications, relevant, publicly accessible data sets were extracted, structured and analyzed. 
 The details of the search can be found in the scientific publication: [https://doi.org/10.15488/17659](https://doi.org/10.15488/17659)
 
-### Related Resources
-
-- [PADELF Dashboard](https://github.com/LSB-dev/PADELF-Dashboard): Interactive web app for searching and filtering datasets from this catalog.
-- [PADELF Python Package](https://github.com/LSB-dev/padelf-pip): Programmatic access to selected datasets in Python.
-
-
 ### Improvements? 🤝
 We are happy about any kind of cooperation, feedback or extension to make the list even more valuable for other scientists. 
 So feel free to expand the list and initiate a pull request.
