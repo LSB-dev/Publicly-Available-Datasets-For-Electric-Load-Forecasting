@@ -1,3 +1,10 @@
+## How To
+You have a dataset that is not on the list yet, but you want to add it?
+
+There are two options:
+(1) *preferred*: if you're familiar with git, try to add it to the list yourself and open a pull request to merge. (see tutorial below)
+(2) if you have no expertise: [create a new post](https://github.com/LSB-dev/Publicly-Available-Datasets-For-Electric-Load-Forecasting/issues) to let us know, and we add it
+
 ## For Developers & Contributors
 
 ### Repository Structure
