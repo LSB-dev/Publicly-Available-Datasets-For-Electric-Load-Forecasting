@@ -127,7 +127,8 @@ See [padelf-pip](https://github.com/LSB-dev/PADELF-PIP) for more details.
 
 
 # Overwhelmed? Use Our Interactive Search Tool:
-![PADELF-search logo](Images/logo_footer_search.PNG)
+![PADELF-search logo](Images/logo_padelf_search.png)
+
 Finding the right dataset for your task can be hard. 
 Use our [PADELF Search](https://padelf.ipa.fraunhofer.de/) Online-Dashboard to filter the above table on-the-fly.
 Simply specify your required filters and get the subset that is useful for you.
