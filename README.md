@@ -168,3 +168,4 @@ See how to contribute in the [CONTRIBUTING.md](https://github.com/LSB-dev/Public
 
 👨‍🎓 We would like to thank K. Kunkel, whose master's thesis contributed greatly to the expansion of the initial dataset collection.
 
+🧨 We'd like to thank G. Schmid, who contributed towards the overall vision to path a way through the dataset jungle by working on an interactive search dashboard and the pip-package. 
