@@ -1,4 +1,4 @@
-![A simle header image](Images/Header_v02.PNG)
+![A simple header image](Images/Header_v02.PNG)
 
 
 # Publicly Available Datasets For Electric Load Forecasting
@@ -89,17 +89,48 @@ So feel free to expand the list and initiate a pull request.
 
 <sup>9</sup> not part of the original Paper, added later (only here)
 
-*for further details take a look at the publication below ⤵️*
+*for further details, take a look at the publication below ⤵️*
+
+# In a Rush? Use Our Python-Package:
+[![PyPI version](https://img.shields.io/pypi/v/padelf.svg)](https://pypi.org/project/padelf/)
+[![Python](https://img.shields.io/pypi/pyversions/padelf.svg)](https://pypi.org/project/padelf/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Github](https://img.shields.io/badge/github-PADELF_PIP-blue?logo=github)](https://github.com/LSB-dev/PADELF-PIP)
+
+**Installation**
+```bash
+pip install padelf
+```
+
+**Use**
+```python
+import padelf
+
+# Load a dataset - one line, sensible defaults
+df = padelf.get_dataset("OPSD")
+
+# show some lines
+print(df.head())
+```
+
+**Output**
+
+```
+                          consumption_kW     DE_wind_onshore_generation_actual
+datetime
+2015-01-01 00:00:00+00:00       41209.0      7568.0
+2015-01-01 01:00:00+00:00       40029.0      7666.0
+2015-01-01 02:00:00+00:00       38891.0      7637.0
+```
+
+See [padelf-pip](https://github.com/LSB-dev/PADELF-PIP) for more details.
 
 
-### Related Repositories
-
-- [PADELF Dashboard](https://github.com/LSB-dev/PADELF-Dashboard) -- Streamlit web app for browsing and filtering datasets
-- [padelf-pip](https://github.com/LSB-dev/PADELF-PIP) -- Python package for programmatic dataset loading 
-
-
-# How to contribute
-See how to contribute in the [CONTRIBUTING.md](https://github.com/LSB-dev/Publicly-Available-Datasets-For-Electric-Load-Forecasting/blob/main/CONTRIBUTING.md)
+# Overwhelmed? Use Our Interactive Search Tool:
+![PADELF-search logo](Images/logo_footer_search.PNG)
+Finding the right dataset for your task can be hard. 
+Use our [PADELF Search](https://padelf.ipa.fraunhofer.de/) Online-Dashboard to filter the above table on-the-fly.
+Simply specify your required filters and get the subset that is useful for you.
 
 # How to cite
 If this work has helped you with your scientific work, we would appreciate a proper mention. ❤️
@@ -123,6 +154,10 @@ BibTeX entry
   doi       = {10.15488/17659}
 }
 ```
+
+# How to contribute
+See how to contribute in the [CONTRIBUTING.md](https://github.com/LSB-dev/Publicly-Available-Datasets-For-Electric-Load-Forecasting/blob/main/CONTRIBUTING.md)
+
 
 # Acknowledgements
 
