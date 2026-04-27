@@ -131,7 +131,7 @@ def readme_content():
 def generated_datasets():
     """Load generated datasets.yaml."""
     yaml_path = Path(__file__).parent.parent / "metadata" / "datasets.yaml"
-    with yaml_path.open() as f:
+    with yaml_path.open(encoding="utf-8") as f:
         return yaml.safe_load(f)
 
 
@@ -232,7 +232,7 @@ def test_round_trip_reproducibility(readme_content):
     if not yaml_path.exists():
         pytest.skip("datasets.yaml not found")
 
-    with yaml_path.open() as f:
+    with yaml_path.open(encoding="utf-8") as f:
         existing = yaml.safe_load(f)
 
     freshly_parsed = parse_markdown_table(readme_content)

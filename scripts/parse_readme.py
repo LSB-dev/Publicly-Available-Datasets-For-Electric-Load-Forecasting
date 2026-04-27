@@ -65,6 +65,7 @@ def slugify(text: str) -> str:
     text = text.lower().strip()
     # Replace spaces and special chars with underscore
     text = re.sub(r"[^a-z0-9_-]+", "_", text)
+    text = text.replace(":", "")
     # Remove leading/trailing underscores
     text = text.strip("_")
     return text
@@ -117,7 +118,6 @@ def parse_domain(cell: str) -> tuple[Optional[str], str]:
     
     # Multiple domains (e.g., "S, R") - cannot normalize uniquely
     if "," in raw:
-        # Try to pick the first one as primary? No, user said be conservative.
         return None, raw
     
     # Ambiguous
